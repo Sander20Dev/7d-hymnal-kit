@@ -4,6 +4,7 @@ import './globals.css'
 
 const rosario = Rosario({
   variable: '--font-rosario',
+  subsets: ['latin', 'latin-ext'],
 })
 
 export const metadata: Metadata = {
