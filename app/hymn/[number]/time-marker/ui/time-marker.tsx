@@ -10,13 +10,15 @@ import { PrimaryButton } from './buttons'
 interface TimeMarkerProps {
   number: number
   formattedLyrics: HymnVerse[]
+  defaultTimestamps?: number[]
 }
 
 export default function TimeMarker({
   number,
   formattedLyrics,
+  defaultTimestamps = [],
 }: TimeMarkerProps) {
-  const [timestamps, setTimestamps] = useState<number[]>([])
+  const [timestamps, setTimestamps] = useState<number[]>(defaultTimestamps)
   const [audio, setAudio] = useState<HTMLAudioElement | null>(null)
 
   const length = formattedLyrics.reduce((acc, v) => acc + v.lines.length, 1)
@@ -43,7 +45,7 @@ export default function TimeMarker({
                 arr.slice(0, i).reduce((acc, v) => acc + v.lines.length, 1) + j
               return (
                 <p
-                  key={'line-' + i + '-' + l.text}
+                  key={'line-' + i + '-' + l}
                   className={clsx(
                     timestamps.length === currentTimeIndex
                       ? 'text-blue-950 font-bold'
@@ -51,7 +53,7 @@ export default function TimeMarker({
                       ? 'text-blue-700 font-semibold grayscale-25'
                       : 'text-blue-800/60'
                   )}>
-                  {l.text}
+                  {l}
                 </p>
               )
             })}

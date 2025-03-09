@@ -46,7 +46,11 @@ export default async function TimeMarkerPage({
           Himno {hymn.number} - {hymn.name}
         </h1>
       </div>
-      <TimeMarker number={hymn.number} formattedLyrics={formattedLyrics} />
+      <TimeMarker
+        number={hymn.number}
+        formattedLyrics={formattedLyrics}
+        defaultTimestamps={hymn.timestamps}
+      />
     </main>
   )
 }

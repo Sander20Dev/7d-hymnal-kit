@@ -42,7 +42,7 @@ export default async function HymnPage({
                   ':'}
             </p>
             {lines.map((l) => (
-              <p key={'line-' + i + '-' + l.text}>{l.text}</p>
+              <p key={'line-' + i + '-' + l}>{l}</p>
             ))}
           </section>
         )) ?? <p>Aún no se ha transcito este himno.</p>}

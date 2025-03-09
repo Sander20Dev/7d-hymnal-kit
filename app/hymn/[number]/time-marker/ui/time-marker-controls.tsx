@@ -18,7 +18,12 @@ export default function TimeMarkerControls({
   return (
     <section className='bg-amber-50 flex justify-center items-center gap-4 p-4 rounded-xl text-xl text-center'>
       <AcceptButton
-        onClick={() => setTimestamps([...timestamps, audio.currentTime])}
+        onClick={() =>
+          setTimestamps([
+            ...timestamps,
+            Math.round(audio.currentTime * 100) / 100,
+          ])
+        }
         disabled={timestamps.length >= length}
         title='Añadir marca'>
         <IconPlus size={32} />

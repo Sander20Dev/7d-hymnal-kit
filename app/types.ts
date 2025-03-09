@@ -11,17 +11,13 @@ export interface BaseHymn {
 export interface ExtraHymn {
   lyrics: HymnVerse[]
   verseAssociated: string
+  timestamps: number[]
   doubleChorus: boolean
 }
 
 export interface HymnVerse {
   kind: 'verse' | 'chorus'
-  lines: VerseLine[]
-}
-
-export interface VerseLine {
-  text: string
-  timestamp: number
+  lines: string[]
 }
 
 export type PageProps<T> = {
