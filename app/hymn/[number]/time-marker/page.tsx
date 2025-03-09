@@ -35,7 +35,7 @@ export default async function TimeMarkerPage({
   )
 
   return (
-    <main className='grid grid-cols-3 grid-rows-[80px_1fr_1fr_1fr] w-full h-screen gap-4 p-4 bg-slate-50'>
+    <main className='flex flex-col sm:grid sm:grid-cols-3 sm:grid-rows-[80px_1fr_1fr_1fr] w-full h-screen gap-4 p-4 bg-slate-50'>
       <div className='col-span-3 grid grid-cols-[80px_1fr] w-full gap-4'>
         <Link
           href={'/hymn/' + hymn.number}

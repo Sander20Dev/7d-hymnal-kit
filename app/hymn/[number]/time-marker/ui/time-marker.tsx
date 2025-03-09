@@ -26,7 +26,7 @@ export default function TimeMarker({
 
   return (
     <>
-      <section className='col-span-2 row-span-3 row-start-2 bg-white flex flex-col justify-center items-center p-4 text-center gap-4 flex-wrap rounded-xl text-lg overflow-x-auto'>
+      <section className='sm:col-span-2 sm:row-span-3 sm:row-start-2 bg-white flex flex-col justify-center items-center p-4 text-center gap-4 flex-wrap rounded-xl text-lg overflow-x-auto'>
         <section>
           <p
             className={clsx(
@@ -73,7 +73,7 @@ export default function TimeMarker({
           </p>
         </section>
       </section>
-      <section className='row-span-3 col-start-3 row-start-2 bg-amber-100 flex flex-col justify-center p-4 gap-4 rounded-xl text-xl text-center items-center'>
+      <section className='sm:row-span-3 sm:col-start-3 sm:row-start-2 bg-amber-100 grid grid-cols-2 grid-rows-2 sm:flex sm:flex-col justify-center p-4 gap-4 rounded-xl text-xl text-center items-center'>
         {audio == null && (
           <PrimaryButton
             onClick={() => {

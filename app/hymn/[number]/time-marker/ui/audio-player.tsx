@@ -28,7 +28,7 @@ export default function AudioPlayer({ audio }: { audio: HTMLAudioElement }) {
   }, [audio])
 
   return (
-    <section className='bg-amber-50 flex flex-col justify-center items-center p-4 rounded-xl text-xl text-center gap-4'>
+    <section className='col-start-1 col-span-2 row-start-2 bg-amber-50 flex flex-col justify-center items-center p-4 rounded-xl text-xl text-center gap-4'>
       <div className='flex justify-center items-center gap-4 w-full'>
         <ControlButton
           onClick={() => (audio.currentTime -= 5)}

@@ -15,21 +15,33 @@ export default async function HymnPage({
   if (hymn == null) return notFound()
 
   return (
-    <main className='grid grid-cols-3 grid-rows-[80px_1fr_1fr_1fr] w-full min-h-screen gap-4 p-4 bg-slate-50'>
-      <div className='col-span-3 grid grid-cols-[80px_1fr] w-full gap-4'>
+    <main className='flex flex-col sm:grid sm:grid-cols-3 sm:grid-rows-[80px_1fr_1fr_1fr] w-full min-h-screen gap-4 p-4 bg-slate-50'>
+      <div className='sm:col-span-3 grid grid-cols-[80px_1fr] w-full gap-4'>
         <Link
           href='/'
           className='bg-white hover:bg-amber-50 rounded-xl flex items-center justify-center'>
           {'<'}
         </Link>
-        <h1 className='bg-white flex items-center justify-center text-center text-xl sm:text-2xl font-bold overflow-hidden text-ellipsis whitespace-nowrap p-2 rounded-xl'>
+        <h1 className='bg-white flex items-center sm:justify-center sm:text-center text-xl sm:text-2xl font-bold overflow-hidden text-ellipsis whitespace-nowrap p-2 rounded-xl'>
           Himno {hymn.number} - {hymn.name}
         </h1>
       </div>
+
+      <Link
+        target='_blank'
+        href='https://docs.google.com/spreadsheets/d/13Se-F9Bpi-QkfsQw4l2p5Q_PaiZW9mGPjdjoRVDguMQ/edit?usp=sharing'
+        className='sm:col-start-3 sm:row-start-2 bg-blue-100 hover:bg-blue-200 flex justify-center items-center text-center p-4 rounded-xl text-xl'>
+        {hymn.verseAssociated ?? 'No se tiene el versículo asociado.'}
+      </Link>
+      <Link
+        href={`/hymn/${hymn.number}/time-marker`}
+        className='sm:row-span-2 sm:col-start-3 sm:row-start-3 bg-amber-100 hover:bg-amber-200 flex justify-center p-4 rounded-xl text-xl text-center items-center'>
+        Editar o crear marcas de tiempo
+      </Link>
       <Link
         target='_blank'
         href={getHymnLyricsUrl(hymn.number)}
-        className='col-span-2 row-span-3 row-start-2 bg-white hover:bg-blue-50 flex flex-col justify-center items-center p-4 text-center gap-4 flex-wrap rounded-xl'>
+        className='sm:col-span-2 sm:row-span-3 sm:row-start-2 bg-white hover:bg-blue-50 flex flex-col justify-center items-center p-4 text-center gap-4 flex-wrap rounded-xl'>
         {hymn.lyrics.length !== 0 ? (
           hymn.lyrics.map(({ lines, kind }, i, arr) => (
             <section key={'line-' + i}>
@@ -50,17 +62,6 @@ export default async function HymnPage({
         ) : (
           <p>Aún no se ha transcito este himno.</p>
         )}
-      </Link>
-      <Link
-        target='_blank'
-        href='https://docs.google.com/spreadsheets/d/13Se-F9Bpi-QkfsQw4l2p5Q_PaiZW9mGPjdjoRVDguMQ/edit?usp=sharing'
-        className='col-start-3 row-start-2 bg-blue-100 hover:bg-blue-200 flex justify-center items-center text-center p-4 rounded-xl text-xl'>
-        {hymn.verseAssociated ?? 'No se tiene el versículo asociado.'}
-      </Link>
-      <Link
-        href={`/hymn/${hymn.number}/time-marker`}
-        className='row-span-2 col-start-3 row-start-3 bg-amber-100 hover:bg-amber-200 flex justify-center p-4 rounded-xl text-xl text-center items-center'>
-        Editar o crear marcas de tiempo
       </Link>
     </main>
   )
