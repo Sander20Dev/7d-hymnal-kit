@@ -29,7 +29,7 @@ export default async function HymnPage({
 
       <Link
         target='_blank'
-        href='https://docs.google.com/spreadsheets/d/13Se-F9Bpi-QkfsQw4l2p5Q_PaiZW9mGPjdjoRVDguMQ/edit?usp=sharing'
+        href='https://docs.google.com/spreadsheets/d/1QZOdJLYAYf8_YqKyCNqnL5V1D4SbkBFcyEV_pLvjFVY/edit?usp=sharing'
         className='sm:col-start-3 sm:row-start-2 bg-blue-100 hover:bg-blue-200 flex justify-center items-center text-center p-4 rounded-xl text-xl'>
         {hymn.verseAssociated ?? 'No se tiene el versículo asociado.'}
       </Link>

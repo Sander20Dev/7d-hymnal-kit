@@ -126,8 +126,8 @@ export default function TimeMarker({
               Guardar
             </PrimaryButton>
             <Link
-              className='bg-amber-300 hover:bg-amber-400'
-              href='https://docs.google.com/spreadsheets/d/1QZOdJLYAYf8_YqKyCNqnL5V1D4SbkBFcyEV_pLvjFVY/edit?usp=sharing'
+              className='bg-amber-300 hover:bg-amber-400 px-2 py-1'
+              href='https://docs.google.com/spreadsheets/d/13Se-F9Bpi-QkfsQw4l2p5Q_PaiZW9mGPjdjoRVDguMQ/edit?usp=sharing'
               target='_blank'>
               Ir al registro
             </Link>
