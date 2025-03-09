@@ -8,6 +8,7 @@ export function isHymnReady(hymn: Hymn) {
   if (hymn.lyrics == null) return false
   if (hymn.lyrics.length === 0) return false
   if (hymn.timestamps == null) return false
+  if (hymn.timestamps.length === 0) return false
 
   return true
 }

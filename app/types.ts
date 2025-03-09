@@ -1,7 +1,4 @@
-export type Hymn = NoCompletedHymn | CompletedHymn
-
-export type NoCompletedHymn = BaseHymn & Partial<ExtraHymn>
-export type CompletedHymn = BaseHymn & ExtraHymn
+export type Hymn = BaseHymn & ExtraHymn
 
 export interface BaseHymn {
   number: number
@@ -10,7 +7,7 @@ export interface BaseHymn {
 
 export interface ExtraHymn {
   lyrics: HymnVerse[]
-  verseAssociated: string
+  verseAssociated?: string // TODO: Make this required
   timestamps: number[]
   doubleChorus: boolean
 }

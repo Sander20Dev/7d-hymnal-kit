@@ -35,7 +35,8 @@
       26.18, 35, 43.84, 52.68, 63.45, 72.56, 80.53, 89.36, 99.63, 109.81,
       119.78, 129.24, 141.94
     ],
-    "verseAssociated": "Salmo 100:1-5"
+    "verseAssociated": "Salmo 100:1-5",
+    "doubleChorus": false
   },
   {
     "number": 2,
@@ -78,7 +79,12 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 29:2"
+    "timestamps": [
+      18.58, 27.21, 34.3, 42.37, 53.14, 61.61, 68.52, 76.94, 87.72, 95.3, 102.6,
+      110.53, 121.44, 130.4, 137, 145.07, 156.28
+    ],
+    "verseAssociated": "Salmo 29:2",
+    "doubleChorus": false
   },
   {
     "number": 3,
@@ -124,7 +130,9 @@
         ]
       }
     ],
-    "verseAssociated": "Apocalipsis 5:11-13"
+    "timestamps": [],
+    "verseAssociated": "Apocalipsis 5:11-13",
+    "doubleChorus": false
   },
   {
     "number": 4,
@@ -170,7 +178,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 39:1"
+    "timestamps": [],
+    "verseAssociated": "Salmo 39:1",
+    "doubleChorus": false
   },
   {
     "number": 5,
@@ -216,7 +226,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 96:1-3"
+    "timestamps": [],
+    "verseAssociated": "Salmo 96:1-3",
+    "doubleChorus": false
   },
   {
     "number": 6,
@@ -241,7 +253,9 @@
         ]
       }
     ],
-    "verseAssociated": "Marcos 11:9, 10"
+    "timestamps": [],
+    "verseAssociated": "Marcos 11:9, 10",
+    "doubleChorus": false
   },
   {
     "number": 7,
@@ -284,7 +298,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 105:1-3"
+    "timestamps": [],
+    "verseAssociated": "Salmo 105:1-3",
+    "doubleChorus": false
   },
   {
     "number": 8,
@@ -336,7 +352,9 @@
         ]
       }
     ],
-    "verseAssociated": "Isaías 52:9"
+    "timestamps": [],
+    "verseAssociated": "Isaías 52:9",
+    "doubleChorus": false
   },
   {
     "number": 9,
@@ -361,7 +379,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 106:48"
+    "timestamps": [],
+    "verseAssociated": "Salmo 106:48",
+    "doubleChorus": false
   },
   {
     "number": 10,
@@ -407,7 +427,9 @@
         ]
       }
     ],
-    "verseAssociated": "Éxodo 3:14, 15"
+    "timestamps": [],
+    "verseAssociated": "Éxodo 3:14, 15",
+    "doubleChorus": false
   },
   {
     "number": 11,
@@ -441,7 +463,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 103:1-6"
+    "timestamps": [],
+    "verseAssociated": "Salmo 103:1-6",
+    "doubleChorus": false
   },
   {
     "number": 12,
@@ -474,7 +498,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 95:1-3"
+    "timestamps": [],
+    "verseAssociated": "Salmo 95:1-3",
+    "doubleChorus": false
   },
   {
     "number": 13,
@@ -517,7 +543,9 @@
         ]
       }
     ],
-    "verseAssociated": "1 Timoteo 1:17"
+    "timestamps": [],
+    "verseAssociated": "1 Timoteo 1:17",
+    "doubleChorus": false
   },
   {
     "number": 14,
@@ -564,7 +592,9 @@
         ]
       }
     ],
-    "verseAssociated": "Deuteronomio 32:3"
+    "timestamps": [],
+    "verseAssociated": "Deuteronomio 32:3",
+    "doubleChorus": false
   },
   {
     "number": 15,
@@ -607,7 +637,9 @@
         ]
       }
     ],
-    "verseAssociated": "1 Crónicas 29:13"
+    "timestamps": [],
+    "verseAssociated": "1 Crónicas 29:13",
+    "doubleChorus": false
   },
   {
     "number": 16,
@@ -650,7 +682,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 66:1-4"
+    "timestamps": [],
+    "verseAssociated": "Salmo 66:1-4",
+    "doubleChorus": false
   },
   {
     "number": 17,
@@ -693,7 +727,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 86:12"
+    "timestamps": [],
+    "verseAssociated": "Salmo 86:12",
+    "doubleChorus": false
   },
   {
     "number": 18,
@@ -727,7 +763,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 138:1, 2"
+    "timestamps": [],
+    "verseAssociated": "Salmo 138:1, 2",
+    "doubleChorus": false
   },
   {
     "number": 19,
@@ -767,7 +805,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 95:6"
+    "timestamps": [],
+    "verseAssociated": "Salmo 95:6",
+    "doubleChorus": false
   },
   {
     "number": 20,
@@ -783,7 +823,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 113:1, 2"
+    "timestamps": [],
+    "verseAssociated": "Salmo 113:1, 2",
+    "doubleChorus": false
   },
   {
     "number": 21,
@@ -801,7 +843,9 @@
         ]
       }
     ],
-    "verseAssociated": "Apocalipsis 4:8"
+    "timestamps": [],
+    "verseAssociated": "Apocalipsis 4:8",
+    "doubleChorus": false
   },
   {
     "number": 22,
@@ -820,7 +864,9 @@
         ]
       }
     ],
-    "verseAssociated": "Habacuc 2:20"
+    "timestamps": [],
+    "verseAssociated": "Habacuc 2:20",
+    "doubleChorus": false
   },
   {
     "number": 23,
@@ -863,7 +909,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 46:10"
+    "timestamps": [],
+    "verseAssociated": "Salmo 46:10",
+    "doubleChorus": false
   },
   {
     "number": 24,
@@ -897,7 +945,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 145:18"
+    "timestamps": [],
+    "verseAssociated": "Salmo 145:18",
+    "doubleChorus": false
   },
   {
     "number": 25,
@@ -913,7 +963,9 @@
         ]
       }
     ],
-    "verseAssociated": "Génesis 28:16, 17"
+    "timestamps": [],
+    "verseAssociated": "Génesis 28:16, 17",
+    "doubleChorus": false
   },
   {
     "number": 26,
@@ -947,7 +999,9 @@
         ]
       }
     ],
-    "verseAssociated": "Mateo 18:20"
+    "timestamps": [],
+    "verseAssociated": "Mateo 18:20",
+    "doubleChorus": false
   },
   {
     "number": 27,
@@ -998,7 +1052,9 @@
         ]
       }
     ],
-    "verseAssociated": "Ezequiel 34:11-16"
+    "timestamps": [],
+    "verseAssociated": "Ezequiel 34:11-16",
+    "doubleChorus": false
   },
   {
     "number": 28,
@@ -1044,7 +1100,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 95:1-7"
+    "timestamps": [],
+    "verseAssociated": "Salmo 95:1-7",
+    "doubleChorus": false
   },
   {
     "number": 29,
@@ -1090,7 +1148,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 37:7"
+    "timestamps": [],
+    "verseAssociated": "Salmo 37:7",
+    "doubleChorus": false
   },
   {
     "number": 30,
@@ -1110,7 +1170,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 119:18"
+    "timestamps": [],
+    "verseAssociated": "Salmo 119:18",
+    "doubleChorus": false
   },
   {
     "number": 31,
@@ -1130,7 +1192,9 @@
         ]
       }
     ],
-    "verseAssociated": "Hebreos 4:16"
+    "timestamps": [],
+    "verseAssociated": "Hebreos 4:16",
+    "doubleChorus": false
   },
   {
     "number": 32,
@@ -1146,7 +1210,9 @@
         ]
       }
     ],
-    "verseAssociated": "Éxodo 3:5"
+    "timestamps": [],
+    "verseAssociated": "Éxodo 3:5",
+    "doubleChorus": false
   },
   {
     "number": 33,
@@ -1164,7 +1230,9 @@
         ]
       }
     ],
-    "verseAssociated": "2 Crónicas 5:14"
+    "timestamps": [],
+    "verseAssociated": "2 Crónicas 5:14",
+    "doubleChorus": false
   },
   {
     "number": 34,
@@ -1186,7 +1254,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 25:1"
+    "timestamps": [],
+    "verseAssociated": "Salmo 25:1",
+    "doubleChorus": false
   },
   {
     "number": 35,
@@ -1201,7 +1271,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 88:2"
+    "timestamps": [],
+    "verseAssociated": "Salmo 88:2",
+    "doubleChorus": false
   },
   {
     "number": 36,
@@ -1217,7 +1289,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 66:19, 20"
+    "timestamps": [],
+    "verseAssociated": "Salmo 66:19, 20",
+    "doubleChorus": false
   },
   {
     "number": 37,
@@ -1269,7 +1343,9 @@
         ]
       }
     ],
-    "verseAssociated": "Números 6:24-26"
+    "timestamps": [],
+    "verseAssociated": "Números 6:24-26",
+    "doubleChorus": false
   },
   {
     "number": 38,
@@ -1296,7 +1372,9 @@
         ]
       }
     ],
-    "verseAssociated": "Génesis 31:49"
+    "timestamps": [],
+    "verseAssociated": "Génesis 31:49",
+    "doubleChorus": false
   },
   {
     "number": 39,
@@ -1321,7 +1399,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 119:165"
+    "timestamps": [],
+    "verseAssociated": "Salmo 119:165",
+    "doubleChorus": false
   },
   {
     "number": 40,
@@ -1349,7 +1429,9 @@
         ]
       }
     ],
-    "verseAssociated": "Números 6:24-26"
+    "timestamps": [],
+    "verseAssociated": "Números 6:24-26",
+    "doubleChorus": false
   },
   {
     "number": 41,
@@ -1366,7 +1448,9 @@
         ]
       }
     ],
-    "verseAssociated": "2 Corintios 13:14"
+    "timestamps": [],
+    "verseAssociated": "2 Corintios 13:14",
+    "doubleChorus": false
   },
   {
     "number": 42,
@@ -1382,7 +1466,9 @@
         ]
       }
     ],
-    "verseAssociated": "Efesios 3:17"
+    "timestamps": [],
+    "verseAssociated": "Efesios 3:17",
+    "doubleChorus": false
   },
   {
     "number": 43,
@@ -1407,7 +1493,9 @@
         ]
       }
     ],
-    "verseAssociated": "Apocalipsis 21:6"
+    "timestamps": [],
+    "verseAssociated": "Apocalipsis 21:6",
+    "doubleChorus": false
   },
   {
     "number": 44,
@@ -1423,7 +1511,9 @@
         ]
       }
     ],
-    "verseAssociated": "Números 6:24-26"
+    "timestamps": [],
+    "verseAssociated": "Números 6:24-26",
+    "doubleChorus": false
   },
   {
     "number": 45,
@@ -1457,7 +1547,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 121:7,8"
+    "timestamps": [],
+    "verseAssociated": "Salmo 121:7,8",
+    "doubleChorus": false
   },
   {
     "number": 46,
@@ -1491,7 +1583,9 @@
         ]
       }
     ],
-    "verseAssociated": "Génesis 1:5,21"
+    "timestamps": [],
+    "verseAssociated": "Génesis 1:5,21",
+    "doubleChorus": false
   },
   {
     "number": 47,
@@ -1534,7 +1628,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 5:3"
+    "timestamps": [],
+    "verseAssociated": "Salmo 5:3",
+    "doubleChorus": false
   },
   {
     "number": 48,
@@ -1577,7 +1673,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 130:4"
+    "timestamps": [],
+    "verseAssociated": "Salmo 130:4",
+    "doubleChorus": false
   },
   {
     "number": 49,
@@ -1620,7 +1718,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 42:8"
+    "timestamps": [],
+    "verseAssociated": "Salmo 42:8",
+    "doubleChorus": false
   },
   {
     "number": 50,
@@ -1677,7 +1777,9 @@
         ]
       }
     ],
-    "verseAssociated": "Romanos 13:11"
+    "timestamps": [],
+    "verseAssociated": "Romanos 13:11",
+    "doubleChorus": false
   },
   {
     "number": 51,
@@ -1723,7 +1825,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 4:8"
+    "timestamps": [],
+    "verseAssociated": "Salmo 4:8",
+    "doubleChorus": false
   },
   {
     "number": 52,
@@ -1766,7 +1870,9 @@
         ]
       }
     ],
-    "verseAssociated": "Lucas 24:29"
+    "timestamps": [],
+    "verseAssociated": "Lucas 24:29",
+    "doubleChorus": false
   },
   {
     "number": 53,
@@ -1821,7 +1927,9 @@
         ]
       }
     ],
-    "verseAssociated": "2 Juan 4:8"
+    "timestamps": [],
+    "verseAssociated": "2 Juan 4:8",
+    "doubleChorus": false
   },
   {
     "number": 54,
@@ -1849,7 +1957,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 34:8"
+    "timestamps": [],
+    "verseAssociated": "Salmo 34:8",
+    "doubleChorus": false
   },
   {
     "number": 55,
@@ -1892,7 +2002,9 @@
         ]
       }
     ],
-    "verseAssociated": "Lamentaciones 3:22,23"
+    "timestamps": [],
+    "verseAssociated": "Lamentaciones 3:22,23",
+    "doubleChorus": false
   },
   {
     "number": 56,
@@ -1908,7 +2020,9 @@
         ]
       }
     ],
-    "verseAssociated": "Juan 3:26"
+    "timestamps": [],
+    "verseAssociated": "Juan 3:26",
+    "doubleChorus": false
   },
   {
     "number": 57,
@@ -1948,7 +2062,9 @@
         ]
       }
     ],
-    "verseAssociated": "Juan 3:26"
+    "timestamps": [],
+    "verseAssociated": "Juan 3:26",
+    "doubleChorus": false
   },
   {
     "number": 58,
@@ -1995,7 +2111,9 @@
         ]
       }
     ],
-    "verseAssociated": "Efesios 2:4,5"
+    "timestamps": [],
+    "verseAssociated": "Efesios 2:4,5",
+    "doubleChorus": false
   },
   {
     "number": 59,
@@ -2017,7 +2135,9 @@
         ]
       }
     ],
-    "verseAssociated": "Juan 3:2"
+    "timestamps": [],
+    "verseAssociated": "Juan 3:2",
+    "doubleChorus": false
   },
   {
     "number": 60,
@@ -2059,7 +2179,9 @@
         ]
       }
     ],
-    "verseAssociated": "Isaías 6:3 "
+    "timestamps": [],
+    "verseAssociated": "Isaías 6:3 ",
+    "doubleChorus": false
   },
   {
     "number": 61,
@@ -2105,7 +2227,9 @@
         ]
       }
     ],
-    "verseAssociated": "Isaías 6:3"
+    "timestamps": [],
+    "verseAssociated": "Isaías 6:3",
+    "doubleChorus": false
   },
   {
     "number": 62,
@@ -2138,7 +2262,9 @@
         ]
       }
     ],
-    "verseAssociated": "Apocalipsis 4:8,11"
+    "timestamps": [],
+    "verseAssociated": "Apocalipsis 4:8,11",
+    "doubleChorus": false
   },
   {
     "number": 63,
@@ -2181,7 +2307,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 146:1,2"
+    "timestamps": [],
+    "verseAssociated": "Salmo 146:1,2",
+    "doubleChorus": false
   },
   {
     "number": 64,
@@ -2227,7 +2355,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 36:6"
+    "timestamps": [],
+    "verseAssociated": "Salmo 36:6",
+    "doubleChorus": false
   },
   {
     "number": 65,
@@ -2273,7 +2403,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 24:1"
+    "timestamps": [],
+    "verseAssociated": "Salmo 24:1",
+    "doubleChorus": false
   },
   {
     "number": 66,
@@ -2319,7 +2451,9 @@
         ]
       }
     ],
-    "verseAssociated": "Isaías 41:2"
+    "timestamps": [],
+    "verseAssociated": "Isaías 41:2",
+    "doubleChorus": false
   },
   {
     "number": 67,
@@ -2378,7 +2512,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 104:1-4"
+    "timestamps": [],
+    "verseAssociated": "Salmo 104:1-4",
+    "doubleChorus": false
   },
   {
     "number": 68,
@@ -2429,7 +2565,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 148:1-3"
+    "timestamps": [],
+    "verseAssociated": "Salmo 148:1-3",
+    "doubleChorus": false
   },
   {
     "number": 69,
@@ -2482,7 +2620,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 8:1"
+    "timestamps": [],
+    "verseAssociated": "Salmo 8:1",
+    "doubleChorus": false
   },
   {
     "number": 70,
@@ -2500,7 +2640,9 @@
         ]
       }
     ],
-    "verseAssociated": "Isaías 52:7"
+    "timestamps": [],
+    "verseAssociated": "Isaías 52:7",
+    "doubleChorus": false
   },
   {
     "number": 71,
@@ -2552,6 +2694,7 @@
         ]
       }
     ],
+    "timestamps": [],
     "verseAssociated": "Salmo 104:24",
     "doubleChorus": true
   },
@@ -2596,7 +2739,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 106:8"
+    "timestamps": [],
+    "verseAssociated": "Salmo 106:8",
+    "doubleChorus": false
   },
   {
     "number": 73,
@@ -2642,7 +2787,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 19:1-6"
+    "timestamps": [],
+    "verseAssociated": "Salmo 19:1-6",
+    "doubleChorus": false
   },
   {
     "number": 74,
@@ -2675,7 +2822,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 95:6"
+    "timestamps": [],
+    "verseAssociated": "Salmo 95:6",
+    "doubleChorus": false
   },
   {
     "number": 75,
@@ -2708,7 +2857,9 @@
         ]
       }
     ],
-    "verseAssociated": "1 Crónicas 16:25"
+    "timestamps": [],
+    "verseAssociated": "1 Crónicas 16:25",
+    "doubleChorus": false
   },
   {
     "number": 76,
@@ -2751,7 +2902,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 90:1-6"
+    "timestamps": [],
+    "verseAssociated": "Salmo 90:1-6",
+    "doubleChorus": false
   },
   {
     "number": 77,
@@ -2773,7 +2926,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 118:28"
+    "timestamps": [],
+    "verseAssociated": "Salmo 118:28",
+    "doubleChorus": false
   },
   {
     "number": 78,
@@ -2813,7 +2968,9 @@
         ]
       }
     ],
-    "verseAssociated": "Lucas 2:10,11"
+    "timestamps": [],
+    "verseAssociated": "Lucas 2:10,11",
+    "doubleChorus": false
   },
   {
     "number": 79,
@@ -2865,7 +3022,9 @@
         ]
       }
     ],
-    "verseAssociated": "Lucas 2:13,14"
+    "timestamps": [],
+    "verseAssociated": "Lucas 2:13,14",
+    "doubleChorus": false
   },
   {
     "number": 80,
@@ -2911,7 +3070,9 @@
         ]
       }
     ],
-    "verseAssociated": "Lucas 2:15"
+    "timestamps": [],
+    "verseAssociated": "Lucas 2:15",
+    "doubleChorus": false
   },
   {
     "number": 81,
@@ -2951,7 +3112,9 @@
         ]
       }
     ],
-    "verseAssociated": "Mateo 2: 2,9,10"
+    "timestamps": [],
+    "verseAssociated": "Mateo 2: 2,9,10",
+    "doubleChorus": false
   },
   {
     "number": 82,
@@ -2997,7 +3160,9 @@
         ]
       }
     ],
-    "verseAssociated": "Salmo 148:12,13"
+    "timestamps": [],
+    "verseAssociated": "Salmo 148:12,13",
+    "doubleChorus": false
   },
   {
     "number": 83,
@@ -3048,7 +3213,9 @@
         ]
       }
     ],
-    "verseAssociated": "Lucas 2:8-11"
+    "timestamps": [],
+    "verseAssociated": "Lucas 2:8-11",
+    "doubleChorus": false
   },
   {
     "number": 84,
@@ -3091,6 +3258,7 @@
         ]
       }
     ],
+    "timestamps": [],
     "verseAssociated": "Lucas 2:15-20",
     "doubleChorus": true
   },
@@ -3138,7 +3306,9 @@
         ]
       }
     ],
-    "verseAssociated": "Lucas 2:7"
+    "timestamps": [],
+    "verseAssociated": "Lucas 2:7",
+    "doubleChorus": false
   },
   {
     "number": 86,
@@ -3184,7 +3354,9 @@
         ]
       }
     ],
-    "verseAssociated": "Lucas 2:13,14"
+    "timestamps": [],
+    "verseAssociated": "Lucas 2:13,14",
+    "doubleChorus": false
   },
   {
     "number": 87,
@@ -3222,7 +3394,9 @@
         ]
       }
     ],
-    "verseAssociated": "Mateo 2:11"
+    "timestamps": [],
+    "verseAssociated": "Mateo 2:11",
+    "doubleChorus": false
   },
   {
     "number": 88,
@@ -3256,7 +3430,9 @@
         ]
       }
     ],
-    "verseAssociated": "Lucas 2:13,14"
+    "timestamps": [],
+    "verseAssociated": "Lucas 2:13,14",
+    "doubleChorus": false
   },
   {
     "number": 89,
@@ -3302,7 +3478,9 @@
         ]
       }
     ],
-    "verseAssociated": "Mateo 2:10"
+    "timestamps": [],
+    "verseAssociated": "Mateo 2:10",
+    "doubleChorus": false
   },
   {
     "number": 90,
@@ -3363,7 +3541,9 @@
         ]
       }
     ],
-    "verseAssociated": "Mateo 2:1,2,11"
+    "timestamps": [],
+    "verseAssociated": "Mateo 2:1,2,11",
+    "doubleChorus": false
   },
   {
     "number": 91,
@@ -3406,7 +3586,9 @@
         ]
       }
     ],
-    "verseAssociated": "Juan 1:14"
+    "timestamps": [],
+    "verseAssociated": "Juan 1:14",
+    "doubleChorus": false
   },
   {
     "number": 92,
@@ -3435,7 +3617,9 @@
         ]
       }
     ],
-    "verseAssociated": "Lucas 2:13-17"
+    "timestamps": [],
+    "verseAssociated": "Lucas 2:13-17",
+    "doubleChorus": false
   },
   {
     "number": 93,
@@ -3480,7 +3664,9 @@
         ]
       }
     ],
-    "verseAssociated": "1 Pedro 2:22-24"
+    "timestamps": [],
+    "verseAssociated": "1 Pedro 2:22-24",
+    "doubleChorus": false
   },
   {
     "number": 94,
@@ -3523,7 +3709,9 @@
         ]
       }
     ],
-    "verseAssociated": "Lucas 23:42"
+    "timestamps": [],
+    "verseAssociated": "Lucas 23:42",
+    "doubleChorus": false
   },
   {
     "number": 95,
@@ -3575,7 +3763,9 @@
         ]
       }
     ],
-    "verseAssociated": "1 Corintios 15:3,4"
+    "timestamps": [],
+    "verseAssociated": "1 Corintios 15:3,4",
+    "doubleChorus": false
   },
   {
     "number": 96,
@@ -3618,7 +3808,9 @@
         ]
       }
     ],
-    "verseAssociated": "Lucas 23:33"
+    "timestamps": [],
+    "verseAssociated": "Lucas 23:33",
+    "doubleChorus": false
   },
   {
     "number": 97,
@@ -3670,7 +3862,9 @@
         ]
       }
     ],
-    "verseAssociated": "Gálatas 6:14"
+    "timestamps": [],
+    "verseAssociated": "Gálatas 6:14",
+    "doubleChorus": false
   },
   {
     "number": 98,
@@ -3713,7 +3907,9 @@
         ]
       }
     ],
-    "verseAssociated": "Isaías 53: 5"
+    "timestamps": [],
+    "verseAssociated": "Isaías 53: 5",
+    "doubleChorus": false
   },
   {
     "number": 99,
@@ -3759,7 +3955,9 @@
         ]
       }
     ],
-    "verseAssociated": "Romanos 8:38,39"
+    "timestamps": [],
+    "verseAssociated": "Romanos 8:38,39",
+    "doubleChorus": false
   },
   {
     "number": 100,
@@ -3802,2058 +4000,3750 @@
         ]
       }
     ],
-    "verseAssociated": "Lucas 23:46"
+    "timestamps": [],
+    "verseAssociated": "Lucas 23:46",
+    "doubleChorus": false
   },
   {
     "number": 101,
-    "name": "Cabeza sacrosanta"
+    "name": "Cabeza sacrosanta",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Isaías 53:5",
+    "doubleChorus": false
   },
   {
     "number": 102,
-    "name": "Cordero de Dios"
+    "name": "Cordero de Dios",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Juan 1:29",
+    "doubleChorus": false
   },
   {
     "number": 103,
-    "name": "Jesús resucitado"
+    "name": "Jesús resucitado",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Apocalipsis 1:17,18",
+    "doubleChorus": false
   },
   {
     "number": 104,
-    "name": "La tumba le encerró"
+    "name": "La tumba le encerró",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Mateo 28:2-4",
+    "doubleChorus": false
   },
   {
     "number": 105,
-    "name": "Cristo ha resucitado"
+    "name": "Cristo ha resucitado",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Hebreos 2:24",
+    "doubleChorus": false
   },
   {
     "number": 106,
-    "name": "Tuya es la gloria"
+    "name": "Tuya es la gloria",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Mateo 28:2",
+    "doubleChorus": false
   },
   {
     "number": 107,
-    "name": "Canto el gran amor"
+    "name": "Canto el gran amor",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Gálatas 2:20",
+    "doubleChorus": false
   },
   {
     "number": 108,
-    "name": "Amigo fiel es Cristo"
+    "name": "Amigo fiel es Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Juan 15:14,15",
+    "doubleChorus": false
   },
   {
     "number": 109,
-    "name": "Un buen amigo tengo yo"
+    "name": "Un buen amigo tengo yo",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Proverbios 18:24",
+    "doubleChorus": false
   },
   {
     "number": 110,
-    "name": "Cristo es el mejor amigo"
+    "name": "Cristo es el mejor amigo",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Juan 15:13",
+    "doubleChorus": false
   },
   {
     "number": 111,
-    "name": "Como Jesús no hay otro amigo"
+    "name": "Como Jesús no hay otro amigo",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Zacarías 13:6",
+    "doubleChorus": false
   },
   {
     "number": 112,
-    "name": "Ningún otro me amó cual Cristo"
+    "name": "Ningún otro me amó cual Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Juan 15:13",
+    "doubleChorus": false
   },
   {
     "number": 113,
-    "name": "Amor que no me dejarás"
+    "name": "Amor que no me dejarás",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Jeremías 31:3",
+    "doubleChorus": false
   },
   {
     "number": 114,
-    "name": "Dime la antigua historia"
+    "name": "Dime la antigua historia",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "1 Timoteo 1:15",
+    "doubleChorus": false
   },
   {
     "number": 115,
-    "name": "¡Oh, cuán grande amor!"
+    "name": "¡Oh, cuán grande amor!",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Efesios 3:19",
+    "doubleChorus": false
   },
   {
     "number": 116,
-    "name": "Cristo está a mi lado"
+    "name": "Cristo está a mi lado",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Efesios 3:19",
+    "doubleChorus": false
   },
   {
     "number": 117,
-    "name": "No sé por qué"
+    "name": "No sé por qué",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "2 Timoteo 1:15",
+    "doubleChorus": false
   },
   {
     "number": 118,
-    "name": "Cuando estés cansado y abatido"
+    "name": "Cuando estés cansado y abatido",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Lucas 11:9",
+    "doubleChorus": false
   },
   {
     "number": 119,
-    "name": "De su trono, mi Jesús"
+    "name": "De su trono, mi Jesús",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Efesios 5:2",
+    "doubleChorus": false
   },
   {
     "number": 120,
-    "name": "¡Cuánto me alegra!"
+    "name": "¡Cuánto me alegra!",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Juan 15:9",
+    "doubleChorus": false
   },
   {
     "number": 121,
-    "name": "Es Jesucristo la vida, la luz"
+    "name": "Es Jesucristo la vida, la luz",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Juan 1:4",
+    "doubleChorus": false
   },
   {
     "number": 122,
-    "name": "Divino pastor"
+    "name": "Divino pastor",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Juan 10:16",
+    "doubleChorus": false
   },
   {
     "number": 123,
-    "name": "¡Cuánto nos ama Jesús!"
+    "name": "¡Cuánto nos ama Jesús!",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "2 Corintios 2:9",
+    "doubleChorus": false
   },
   {
     "number": 124,
-    "name": "Ama el Pastor sus ovejas"
+    "name": "Ama el Pastor sus ovejas",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Isaías 40:11",
+    "doubleChorus": false
   },
   {
     "number": 125,
-    "name": "Infinito amor de Cristo"
+    "name": "Infinito amor de Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Efesíos 3:18,19",
+    "doubleChorus": false
   },
   {
     "number": 126,
-    "name": "Abrigadas y salvas en el redil"
+    "name": "Abrigadas y salvas en el redil",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Lucas 15:4-6",
+    "doubleChorus": false
   },
   {
     "number": 127,
-    "name": "Cristo, nombre dulce"
+    "name": "Cristo, nombre dulce",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Hechos 4.12",
+    "doubleChorus": false
   },
   {
     "number": 128,
-    "name": "¡Tu nombre es dulce, buen Jesús!"
+    "name": "¡Tu nombre es dulce, buen Jesús!",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Mateo 1:23",
+    "doubleChorus": false
   },
   {
     "number": 129,
-    "name": "Cual Jesús no hay otro nombre"
+    "name": "Cual Jesús no hay otro nombre",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Filipenses 2:9",
+    "doubleChorus": false
   },
   {
     "number": 130,
-    "name": "Cristo, Cristo, Cristo"
+    "name": "Cristo, Cristo, Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Hechos 4.12",
+    "doubleChorus": false
   },
   {
     "number": 131,
-    "name": "Bendito es el nombre de Jesús"
+    "name": "Bendito es el nombre de Jesús",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Apocalipsis 19:1",
+    "doubleChorus": false
   },
   {
     "number": 132,
-    "name": "Dulce, hermoso nombre es Jesús"
+    "name": "Dulce, hermoso nombre es Jesús",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "filipense 2:9",
+    "doubleChorus": false
   },
   {
     "number": 133,
-    "name": "Venid, con cánticos venid"
+    "name": "Venid, con cánticos venid",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Apocalipsis 5:9",
+    "doubleChorus": false
   },
   {
     "number": 134,
-    "name": "Cual mirra fragante"
+    "name": "Cual mirra fragante",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Apocalipsis 19:6",
+    "doubleChorus": false
   },
   {
     "number": 135,
-    "name": "Cristo, nombre sublime"
+    "name": "Cristo, nombre sublime",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Mateo 1:23",
+    "doubleChorus": false
   },
   {
     "number": 136,
-    "name": "¡Oh, cuánto amo a Cristo!"
+    "name": "¡Oh, cuánto amo a Cristo!",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "1 Juan 4:16",
+    "doubleChorus": false
   },
   {
     "number": 137,
-    "name": "De Jesús el nombre invoca"
+    "name": "De Jesús el nombre invoca",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Hechos 2:21",
+    "doubleChorus": false
   },
   {
     "number": 138,
-    "name": "De mi amante Salvador"
+    "name": "De mi amante Salvador",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Hechos 4:12",
+    "doubleChorus": false
   },
   {
     "number": 139,
-    "name": "La tierna voz del Salvador"
+    "name": "La tierna voz del Salvador",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Filipenses 2:9",
+    "doubleChorus": false
   },
   {
     "number": 140,
-    "name": "Te quiero, te quiero"
+    "name": "Te quiero, te quiero",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Juan 21:15-17",
+    "doubleChorus": false
   },
   {
     "number": 141,
-    "name": "¡Alabadle!"
+    "name": "¡Alabadle!",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Salmo 96.1,2",
+    "doubleChorus": false
   },
   {
     "number": 142,
-    "name": "Venid, cantad de gozo en plenitud"
+    "name": "Venid, cantad de gozo en plenitud",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Isaías 44:23",
+    "doubleChorus": false
   },
   {
     "number": 143,
-    "name": "Digno eres tú"
+    "name": "Digno eres tú",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Apocalipsis 5:9",
+    "doubleChorus": false
   },
   {
     "number": 144,
-    "name": "Mi Salvador"
+    "name": "Mi Salvador",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Filipenses 3:8",
+    "doubleChorus": false
   },
   {
     "number": 145,
-    "name": "Con acentos de alegría"
+    "name": "Con acentos de alegría",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Apocalipsis 19:16",
+    "doubleChorus": false
   },
   {
     "number": 146,
-    "name": "Ni en la tierra"
+    "name": "Ni en la tierra",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Filipenses 2:9-11",
+    "doubleChorus": false
   },
   {
     "number": 147,
-    "name": "A Dios sea gloria"
+    "name": "A Dios sea gloria",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Juan 6:68",
+    "doubleChorus": false
   },
   {
     "number": 148,
-    "name": "Solo Cristo"
+    "name": "Solo Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Salmo 29:2",
+    "doubleChorus": false
   },
   {
     "number": 149,
-    "name": "Junto a la cruz do Jesús murió"
+    "name": "Junto a la cruz do Jesús murió",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Salmo 34:1-3",
+    "doubleChorus": false
   },
   {
     "number": 150,
-    "name": "A Cristo doy mi canto"
+    "name": "A Cristo doy mi canto",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "1 Juan 4:19",
+    "doubleChorus": false
   },
   {
     "number": 151,
-    "name": "Por eso lo amo"
+    "name": "Por eso lo amo",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "1 Juan 4:19",
+    "doubleChorus": false
   },
   {
     "number": 152,
-    "name": "A ti, Jesús"
+    "name": "A ti, Jesús",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "1 Juan 4:19",
+    "doubleChorus": false
   },
   {
     "number": 153,
-    "name": "Ved a Cristo"
+    "name": "Ved a Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Hebreos 2:9",
+    "doubleChorus": false
   },
   {
     "number": 154,
-    "name": "Dad gloria al Cordero Rey"
+    "name": "Dad gloria al Cordero Rey",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Apocalipsis 5:12,13",
+    "doubleChorus": false
   },
   {
     "number": 155,
-    "name": "En Sion Jesús hoy reina"
+    "name": "En Sion Jesús hoy reina",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Salmo 97:1",
+    "doubleChorus": false
   },
   {
     "number": 156,
-    "name": "A Cristo coronad"
+    "name": "A Cristo coronad",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Apocalipsis 19:12",
+    "doubleChorus": false
   },
   {
     "number": 157,
-    "name": "¡Majestad!"
+    "name": "¡Majestad!",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Judas 1:25",
+    "doubleChorus": false
   },
   {
     "number": 158,
-    "name": "Amanece ya la mañana de oro"
+    "name": "Amanece ya la mañana de oro",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Mateo 24:31",
+    "doubleChorus": false
   },
   {
     "number": 159,
-    "name": "Yo espero la mañana"
+    "name": "Yo espero la mañana",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "2 Pedro 3:12,13",
+    "doubleChorus": false
   },
   {
     "number": 160,
-    "name": "Viene otra vez nuestro Salvador"
+    "name": "Viene otra vez nuestro Salvador",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Mateo 25.6",
+    "doubleChorus": false
   },
   {
     "number": 161,
-    "name": "¡Oh! cuán gratas las nuevas"
+    "name": "¡Oh! cuán gratas las nuevas",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "1 Tesalonicenses 4.16",
+    "doubleChorus": false
   },
   {
     "number": 162,
-    "name": "En presencia estar de Cristo"
+    "name": "En presencia estar de Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Apocalipsis 22:4",
+    "doubleChorus": false
   },
   {
     "number": 163,
-    "name": "Cristo viene, esto es cierto"
+    "name": "Cristo viene, esto es cierto",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Mateo 24:30",
+    "doubleChorus": false
   },
   {
     "number": 164,
-    "name": "Jesús pronto volverá"
+    "name": "Jesús pronto volverá",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Apocalipsis 22:7",
+    "doubleChorus": false
   },
   {
     "number": 165,
-    "name": "¡Vendrá el Señor!"
+    "name": "¡Vendrá el Señor!",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Mateo 24.42",
+    "doubleChorus": false
   },
   {
     "number": 166,
-    "name": "Siervos de Dios, la trompeta tocad"
+    "name": "Siervos de Dios, la trompeta tocad",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Joel 2:1",
+    "doubleChorus": false
   },
   {
     "number": 167,
-    "name": "¿Quién en deslumbrante gloria?"
+    "name": "¿Quién en deslumbrante gloria?",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Apocalipsis 19:11-16",
+    "doubleChorus": false
   },
   {
     "number": 168,
-    "name": "El Rey que viene"
+    "name": "El Rey que viene",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Apocalipsis 3:11",
+    "doubleChorus": false
   },
   {
     "number": 169,
-    "name": "Cuando suene la trompeta"
+    "name": "Cuando suene la trompeta",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "1 Corintios 15:52",
+    "doubleChorus": false
   },
   {
     "number": 170,
-    "name": "La segunda venida de Cristo"
+    "name": "La segunda venida de Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Mateo 24:27",
+    "doubleChorus": false
   },
   {
     "number": 171,
-    "name": "¿Has oído el mensaje?"
+    "name": "¿Has oído el mensaje?",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Apocalipsis 22:20",
+    "doubleChorus": false
   },
   {
     "number": 172,
-    "name": "Promesa dulce"
+    "name": "Promesa dulce",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "1 Juan 14:1-3",
+    "doubleChorus": false
   },
   {
     "number": 173,
-    "name": "¿Será al albor?"
+    "name": "¿Será al albor?",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Marcar 13:35.36",
+    "doubleChorus": false
   },
   {
     "number": 174,
-    "name": "Mira los hitos"
+    "name": "Mira los hitos",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Daniel 2:31-44",
+    "doubleChorus": false
   },
   {
     "number": 175,
-    "name": "Ved a Cristo, que se acerca"
+    "name": "Ved a Cristo, que se acerca",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Isaías 25:9",
+    "doubleChorus": false
   },
   {
     "number": 176,
-    "name": "Tú verás al Rey viniendo"
+    "name": "Tú verás al Rey viniendo",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "1 Corintios 15:52",
+    "doubleChorus": false
   },
   {
     "number": 177,
-    "name": "Los tres mensajes angélicos"
+    "name": "Los tres mensajes angélicos",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Apocalipsis 14:13-12",
+    "doubleChorus": false
   },
   {
     "number": 178,
-    "name": "Contemplé la gloria"
+    "name": "Contemplé la gloria",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Apocalipsis 19:11-16",
+    "doubleChorus": false
   },
   {
     "number": 179,
-    "name": "¡Cristo viene! Aquel día se acerca"
+    "name": "¡Cristo viene! Aquel día se acerca",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Apocalipsis 22:20",
+    "doubleChorus": false
   },
   {
     "number": 180,
-    "name": "Sí, lo veremos"
+    "name": "Sí, lo veremos",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Isaías 25.9",
+    "doubleChorus": false
   },
   {
     "number": 181,
-    "name": "Una esperanza"
+    "name": "Una esperanza",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Tito 2:13",
+    "doubleChorus": false
   },
   {
     "number": 182,
-    "name": "Veremos a Cristo"
+    "name": "Veremos a Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "1 Juan 3:2",
+    "doubleChorus": false
   },
   {
     "number": 183,
-    "name": "No me olvidé de ti"
+    "name": "No me olvidé de ti",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Isaías 49:15",
+    "doubleChorus": false
   },
   {
     "number": 184,
-    "name": "Nunca te rindas"
+    "name": "Nunca te rindas",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Mateo 24:13",
+    "doubleChorus": false
   },
   {
     "number": 185,
-    "name": "Al Cielo voy"
+    "name": "Al Cielo voy",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Salmo 17:15",
+    "doubleChorus": false
   },
   {
     "number": 186,
-    "name": "Hace años escuché"
+    "name": "Hace años escuché",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Lucas 21:28",
+    "doubleChorus": false
   },
   {
     "number": 187,
-    "name": "Aunque anochezca"
+    "name": "Aunque anochezca",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Apocalipsis 21:3-5",
+    "doubleChorus": false
   },
   {
     "number": 188,
-    "name": "Gran alegría"
+    "name": "Gran alegría",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Isaías 35:10",
+    "doubleChorus": false
   },
   {
     "number": 189,
-    "name": "Cristo muy pronto vendrá"
+    "name": "Cristo muy pronto vendrá",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Juan 14:1-3",
+    "doubleChorus": false
   },
   {
     "number": 190,
-    "name": "Santo Espíritu de Cristo"
+    "name": "Santo Espíritu de Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Efesios 5:18",
+    "doubleChorus": false
   },
   {
     "number": 191,
-    "name": "La nueva proclamad"
+    "name": "La nueva proclamad",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Juan 14:16, 17",
+    "doubleChorus": false
   },
   {
     "number": 192,
-    "name": "Llena mi ser"
+    "name": "Llena mi ser",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Efesios 5:18",
+    "doubleChorus": false
   },
   {
     "number": 193,
-    "name": "Dios nos ha dado promesa"
+    "name": "Dios nos ha dado promesa",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Ezequiel 24:36",
+    "doubleChorus": false
   },
   {
     "number": 194,
-    "name": "Vive en mí"
+    "name": "Vive en mí",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Juan 14:18,17",
+    "doubleChorus": false
   },
   {
     "number": 195,
-    "name": "Abre mis ojos a la luz"
+    "name": "Abre mis ojos a la luz",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Juan 16:13",
+    "doubleChorus": false
   },
   {
     "number": 196,
-    "name": "Santo Espíritu de Dios"
+    "name": "Santo Espíritu de Dios",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Hebreos 10:15-17",
+    "doubleChorus": false
   },
   {
     "number": 197,
-    "name": "Dulce Espíritu"
+    "name": "Dulce Espíritu",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Juan 14:16",
+    "doubleChorus": false
   },
   {
     "number": 198,
-    "name": "Desciende, Espíritu de amor"
+    "name": "Desciende, Espíritu de amor",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Mateo 3:16",
+    "doubleChorus": false
   },
   {
     "number": 199,
-    "name": "Movidos por tu Espíritu"
+    "name": "Movidos por tu Espíritu",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Hebreos 1:8",
+    "doubleChorus": false
   },
   {
     "number": 200,
-    "name": "Bautízanos hoy"
+    "name": "Bautízanos hoy",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Marco 1:5-11",
+    "doubleChorus": false
   },
   {
     "number": 201,
-    "name": "Canción del Espíritu"
+    "name": "Canción del Espíritu",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Juan 7:38,39",
+    "doubleChorus": false
   },
   {
     "number": 202,
-    "name": "Danos el fuego"
+    "name": "Danos el fuego",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "2 Reyes 9:11",
+    "doubleChorus": false
   },
   {
     "number": 203,
-    "name": "Santo Espíritu llena mi vida"
+    "name": "Santo Espíritu llena mi vida",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Hechos 1:8",
+    "doubleChorus": false
   },
   {
     "number": 204,
-    "name": "Oh, cantádmelas otra vez"
+    "name": "Oh, cantádmelas otra vez",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Juan 6:63",
+    "doubleChorus": false
   },
   {
     "number": 205,
-    "name": "Dadme la Biblia"
+    "name": "Dadme la Biblia",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Salmo 119:105",
+    "doubleChorus": false
   },
   {
     "number": 206,
-    "name": "Padre, tu Palabra es mi delicia"
+    "name": "Padre, tu Palabra es mi delicia",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Juan 17:17",
+    "doubleChorus": false
   },
   {
     "number": 207,
-    "name": "Dios nos habla"
+    "name": "Dios nos habla",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Hebreos 1:1,2",
+    "doubleChorus": false
   },
   {
     "number": 208,
-    "name": "¡Santa Biblia!"
+    "name": "¡Santa Biblia!",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "2 Timoteo 3:16",
+    "doubleChorus": false
   },
   {
     "number": 209,
-    "name": "La Biblia nos habla de Cristo"
+    "name": "La Biblia nos habla de Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Juan 5:39",
+    "doubleChorus": false
   },
   {
     "number": 210,
-    "name": "Huye cual ave"
+    "name": "Huye cual ave",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Salmo 121:1-3",
+    "doubleChorus": false
   },
   {
     "number": 211,
-    "name": "Fija tus ojos en Cristo"
+    "name": "Fija tus ojos en Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Hebreos 12:2",
+    "doubleChorus": false
   },
   {
     "number": 212,
-    "name": "A tu puerta Cristo está"
+    "name": "A tu puerta Cristo está",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Apocalipsis 3:20",
+    "doubleChorus": false
   },
   {
     "number": 213,
-    "name": "Tierno y amante, Jesús nos invita"
+    "name": "Tierno y amante, Jesús nos invita",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Mateo 11:28",
+    "doubleChorus": false
   },
   {
     "number": 214,
-    "name": "Mientras Jesús te llama"
+    "name": "Mientras Jesús te llama",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Hebreos 4:7",
+    "doubleChorus": false
   },
   {
     "number": 215,
-    "name": "Con voz benigna te llama Jesús"
+    "name": "Con voz benigna te llama Jesús",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Mateo 9:9",
+    "doubleChorus": false
   },
   {
     "number": 216,
-    "name": "Dios al pródigo llama"
+    "name": "Dios al pródigo llama",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Lucas 15:17-24",
+    "doubleChorus": false
   },
   {
     "number": 217,
-    "name": "Bienvenida da Jesús"
+    "name": "Bienvenida da Jesús",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": " Lucas 25:2",
+    "doubleChorus": false
   },
   {
     "number": 218,
-    "name": "A Jesucristo ven sin tardar"
+    "name": "A Jesucristo ven sin tardar",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Apocalipsis 22:17",
+    "doubleChorus": false
   },
   {
     "number": 219,
-    "name": "Tan triste y tan lejos de Dios"
+    "name": "Tan triste y tan lejos de Dios",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Juan 8:12",
+    "doubleChorus": false
   },
   {
     "number": 220,
-    "name": "Allá la puerta abierta está"
+    "name": "Allá la puerta abierta está",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Juan 10:9",
+    "doubleChorus": false
   },
   {
     "number": 221,
-    "name": "Puertas abiertas encontrarán"
+    "name": "Puertas abiertas encontrarán",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Mateo 25:10-12",
+    "doubleChorus": false
   },
   {
     "number": 222,
-    "name": "Del trono celestial"
+    "name": "Del trono celestial",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Filipenses 2:5-8",
+    "doubleChorus": false
   },
   {
     "number": 223,
-    "name": "Oí la voz del Salvador"
+    "name": "Oí la voz del Salvador",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Juan 7:37",
+    "doubleChorus": false
   },
   {
     "number": 224,
-    "name": "Oí la voz del buen Jesús"
+    "name": "Oí la voz del buen Jesús",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Juan 1:43",
+    "doubleChorus": false
   },
   {
     "number": 225,
-    "name": "Un hombre llegóse de noche a Jesús"
+    "name": "Un hombre llegóse de noche a Jesús",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Juan 3:3-5",
+    "doubleChorus": false
   },
   {
     "number": 226,
-    "name": "Buscad primero"
+    "name": "Buscad primero",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Mateo 6:33",
+    "doubleChorus": false
   },
   {
     "number": 227,
-    "name": "Preste oídos el humano"
+    "name": "Preste oídos el humano",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Isaías  55:1-3",
+    "doubleChorus": false
   },
   {
     "number": 228,
-    "name": "Me buscaréis y me hallaréis"
+    "name": "Me buscaréis y me hallaréis",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Jeremías 29:13",
+    "doubleChorus": false
   },
   {
     "number": 229,
-    "name": "¿Has pensado lo que puede costar?"
+    "name": "¿Has pensado lo que puede costar?",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Apocalipsis 3:20",
+    "doubleChorus": false
   },
   {
     "number": 230,
-    "name": "Abre tu corazón"
+    "name": "Abre tu corazón",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Apocalipsis 3:20",
+    "doubleChorus": false
   },
   {
     "number": 231,
-    "name": "Todo en el altar"
+    "name": "Todo en el altar",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Proverbios 23:26",
+    "doubleChorus": false
   },
   {
     "number": 232,
-    "name": "Entrégate en oración"
+    "name": "Entrégate en oración",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Filipenses 4:6",
+    "doubleChorus": false
   },
   {
     "number": 233,
-    "name": "Ven a la Fuente de vida"
+    "name": "Ven a la Fuente de vida",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Juan 4:14",
+    "doubleChorus": false
   },
   {
     "number": 234,
-    "name": "¿Temes que en la lucha?"
+    "name": "¿Temes que en la lucha?",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Juan 14:23",
+    "doubleChorus": false
   },
   {
     "number": 235,
-    "name": "La razón de vivir"
+    "name": "La razón de vivir",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Filipenses 1:21",
+    "doubleChorus": false
   },
   {
     "number": 236,
-    "name": "A Jesús entrega todo"
+    "name": "A Jesús entrega todo",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Mateo 11:28",
+    "doubleChorus": false
   },
   {
     "number": 237,
-    "name": "Jesús hoy espera entrar en tu ser"
+    "name": "Jesús hoy espera entrar en tu ser",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Apocalipsis 3:20",
+    "doubleChorus": false
   },
   {
     "number": 238,
-    "name": "Yo escucho, buen Jesús"
+    "name": "Yo escucho, buen Jesús",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Lucas 18:13",
+    "doubleChorus": false
   },
   {
     "number": 239,
-    "name": "De Dios vagaba lejos yo"
+    "name": "De Dios vagaba lejos yo",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Salmo 51:1,2",
+    "doubleChorus": false
   },
   {
     "number": 240,
-    "name": "Te ruego, oh Dios"
+    "name": "Te ruego, oh Dios",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Lucas 4:6",
+    "doubleChorus": false
   },
   {
     "number": 241,
-    "name": "Perdón te ruego, mi Señor y Dios"
+    "name": "Perdón te ruego, mi Señor y Dios",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Salmo 51:1,2",
+    "doubleChorus": false
   },
   {
     "number": 242,
-    "name": "Una es, Señor, mi petición"
+    "name": "Una es, Señor, mi petición",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Salmo 51:2",
+    "doubleChorus": false
   },
   {
     "number": 243,
-    "name": "Entrego todo a Cristo"
+    "name": "Entrego todo a Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Isaías 1:18",
+    "doubleChorus": false
   },
   {
     "number": 244,
-    "name": "Padre, Dios"
+    "name": "Padre, Dios",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Lucas 15:18-24",
+    "doubleChorus": false
   },
   {
     "number": 245,
-    "name": "Cúmplase, oh Cristo, tu voluntad"
+    "name": "Cúmplase, oh Cristo, tu voluntad",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Mateo 26:42",
+    "doubleChorus": false
   },
   {
     "number": 246,
-    "name": "Te quiero, mi Señor"
+    "name": "Te quiero, mi Señor",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Salmo 42:1,2",
+    "doubleChorus": false
   },
   {
     "number": 247,
-    "name": "Yo te seguiré"
+    "name": "Yo te seguiré",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Lucas  9:57",
+    "doubleChorus": false
   },
   {
     "number": 248,
-    "name": "Que mi vida entera esté"
+    "name": "Que mi vida entera esté",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Filipenses 1:21",
+    "doubleChorus": false
   },
   {
     "number": 249,
-    "name": "Tal como soy"
+    "name": "Tal como soy",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Lucas 18:13",
+    "doubleChorus": false
   },
   {
     "number": 250,
-    "name": "Padre, a tus pies me postro"
+    "name": "Padre, a tus pies me postro",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Ezequiel 36:25-27",
+    "doubleChorus": false
   },
   {
     "number": 251,
-    "name": "No yo, sino él"
+    "name": "No yo, sino él",
+    "lyrics": [],
+    "timestamps": [],
+    "verseAssociated": "Gálatas 2:20",
+    "doubleChorus": false
   },
   {
     "number": 252,
-    "name": "Dejo el mundo"
+    "name": "Dejo el mundo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 253,
-    "name": "Tuyo soy, Jesús"
+    "name": "Tuyo soy, Jesús",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 254,
-    "name": "Anhelo ser limpio"
+    "name": "Anhelo ser limpio",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 255,
-    "name": "Oh Cristo, te adoro"
+    "name": "Oh Cristo, te adoro",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 256,
-    "name": "Jesús, yo he prometido"
+    "name": "Jesús, yo he prometido",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 257,
-    "name": "¡Oh! ven, te invito, Cristo"
+    "name": "¡Oh! ven, te invito, Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 258,
-    "name": "Tú dejaste tu trono"
+    "name": "Tú dejaste tu trono",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 259,
-    "name": "Mi espíritu, alma y cuerpo"
+    "name": "Mi espíritu, alma y cuerpo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 260,
-    "name": "Junto a la cruz de Cristo"
+    "name": "Junto a la cruz de Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 261,
-    "name": "Salvador, a ti me rindo"
+    "name": "Salvador, a ti me rindo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 262,
-    "name": "Los tesoros del mundo"
+    "name": "Los tesoros del mundo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 263,
-    "name": "Entra en este corazón"
+    "name": "Entra en este corazón",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 264,
-    "name": "Un día más por Cristo"
+    "name": "Un día más por Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 265,
-    "name": "La senda ancha dejaré"
+    "name": "La senda ancha dejaré",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 266,
-    "name": "Vivo por Cristo"
+    "name": "Vivo por Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 267,
-    "name": "A la cruz de Cristo voy"
+    "name": "A la cruz de Cristo voy",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 268,
-    "name": "Puedo oír tu voz llamando"
+    "name": "Puedo oír tu voz llamando",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 269,
-    "name": "Prefiero a mi Cristo"
+    "name": "Prefiero a mi Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 270,
-    "name": "Meditar en Jesús"
+    "name": "Meditar en Jesús",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 271,
-    "name": "Hoy me llama el mundo en vano"
+    "name": "Hoy me llama el mundo en vano",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 272,
-    "name": "De esclavitud"
+    "name": "De esclavitud",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 273,
-    "name": "Tu vida, oh Salvador"
+    "name": "Tu vida, oh Salvador",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 274,
-    "name": "¿Qué te daré, Maestro?"
+    "name": "¿Qué te daré, Maestro?",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 275,
-    "name": "En humilde oración"
+    "name": "En humilde oración",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 276,
-    "name": "Con nuestras mentes"
+    "name": "Con nuestras mentes",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 277,
-    "name": "Amarte más"
+    "name": "Amarte más",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 278,
-    "name": "¿Puede el mundo ver a Jesús en mí?"
+    "name": "¿Puede el mundo ver a Jesús en mí?",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 279,
-    "name": "Transfórmame a tu imagen"
+    "name": "Transfórmame a tu imagen",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 280,
-    "name": "Ser semejante a Jesús"
+    "name": "Ser semejante a Jesús",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 281,
-    "name": "He decidido seguir a Cristo"
+    "name": "He decidido seguir a Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 282,
-    "name": "¡Brilla, Jesús!"
+    "name": "¡Brilla, Jesús!",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 283,
-    "name": "Ven, Señor Jesús"
+    "name": "Ven, Señor Jesús",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 284,
-    "name": "Me dice el Salvador"
+    "name": "Me dice el Salvador",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 285,
-    "name": "Confío en Jesucristo"
+    "name": "Confío en Jesucristo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 286,
-    "name": "Hay una fuente sin igual"
+    "name": "Hay una fuente sin igual",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 287,
-    "name": "Rey de mi vida"
+    "name": "Rey de mi vida",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 288,
-    "name": "Al contemplarte, mi Salvador"
+    "name": "Al contemplarte, mi Salvador",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 289,
-    "name": "¿Qué me puede dar perdón?"
+    "name": "¿Qué me puede dar perdón?",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 290,
-    "name": "Fuente de la vida eterna"
+    "name": "Fuente de la vida eterna",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 291,
-    "name": "Perdido, fui a mi Jesús"
+    "name": "Perdido, fui a mi Jesús",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 292,
-    "name": "Por fe en Cristo, el Redentor"
+    "name": "Por fe en Cristo, el Redentor",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 293,
-    "name": "¿Quieres ser salvo de toda maldad?"
+    "name": "¿Quieres ser salvo de toda maldad?",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 294,
-    "name": "En Jesús por fe confío"
+    "name": "En Jesús por fe confío",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 295,
-    "name": "Las manos, Padre"
+    "name": "Las manos, Padre",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 296,
-    "name": "Comprado con sangre por Cristo"
+    "name": "Comprado con sangre por Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 297,
-    "name": "Salvado con sangre por Cristo"
+    "name": "Salvado con sangre por Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 298,
-    "name": "Al Calvario, solo, Jesús ascendió"
+    "name": "Al Calvario, solo, Jesús ascendió",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 299,
-    "name": "Hay vida en mirar"
+    "name": "Hay vida en mirar",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 300,
-    "name": "Lejos de mi Padre Dios"
+    "name": "Lejos de mi Padre Dios",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 301,
-    "name": "Cristo es mi amante Salvador"
+    "name": "Cristo es mi amante Salvador",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 302,
-    "name": "Grato es contar la historia"
+    "name": "Grato es contar la historia",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 303,
-    "name": "Sublime gracia"
+    "name": "Sublime gracia",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 304,
-    "name": "Mi Redentor, el Rey de gloria"
+    "name": "Mi Redentor, el Rey de gloria",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 305,
-    "name": "Maravillosa su gracia es"
+    "name": "Maravillosa su gracia es",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 306,
-    "name": "Llegó Jesús"
+    "name": "Llegó Jesús",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 307,
-    "name": "Roca de la eternidad"
+    "name": "Roca de la eternidad",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 308,
-    "name": "Dios descendió"
+    "name": "Dios descendió",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 309,
-    "name": "La voz de Jesús"
+    "name": "La voz de Jesús",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 310,
-    "name": "Cristo, centro de mi vida"
+    "name": "Cristo, centro de mi vida",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 311,
-    "name": "Cuando junte Jesús las naciones"
+    "name": "Cuando junte Jesús las naciones",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 312,
-    "name": "Día grande viene"
+    "name": "Día grande viene",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 313,
-    "name": "La hora del Juicio"
+    "name": "La hora del Juicio",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 314,
-    "name": "Cristo, Rey omnipotente"
+    "name": "Cristo, Rey omnipotente",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 315,
-    "name": "El Juicio empezó"
+    "name": "El Juicio empezó",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 316,
-    "name": "Hay un mundo feliz más allá"
+    "name": "Hay un mundo feliz más allá",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 317,
-    "name": "En el hogar do nunca habrá"
+    "name": "En el hogar do nunca habrá",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 318,
-    "name": "En la mansión de mi Señor"
+    "name": "En la mansión de mi Señor",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 319,
-    "name": "Cuando mi lucha termine al final"
+    "name": "Cuando mi lucha termine al final",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 320,
-    "name": "Jamás se dice adiós allá"
+    "name": "Jamás se dice adiós allá",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 321,
-    "name": "Allá sobre montes"
+    "name": "Allá sobre montes",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 322,
-    "name": "Busquemos la patria"
+    "name": "Busquemos la patria",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 323,
-    "name": "He de conocerle entonces"
+    "name": "He de conocerle entonces",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 324,
-    "name": "Pronto yo veré a Jesús"
+    "name": "Pronto yo veré a Jesús",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 325,
-    "name": "No puede el mundo ser mi hogar"
+    "name": "No puede el mundo ser mi hogar",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 326,
-    "name": "Un día yo he de faltar"
+    "name": "Un día yo he de faltar",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 327,
-    "name": "Jerusalén, mi amado hogar"
+    "name": "Jerusalén, mi amado hogar",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 328,
-    "name": "¿Nos veremos junto al río?"
+    "name": "¿Nos veremos junto al río?",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 329,
-    "name": "En la célica morada"
+    "name": "En la célica morada",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 330,
-    "name": "Hay un feliz Edén"
+    "name": "Hay un feliz Edén",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 331,
-    "name": "La mañana gloriosa"
+    "name": "La mañana gloriosa",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 332,
-    "name": "En la tierra adonde iré"
+    "name": "En la tierra adonde iré",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 333,
-    "name": "Aunque en esta vida"
+    "name": "Aunque en esta vida",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 334,
-    "name": "Cuánto anhelo llegar"
+    "name": "Cuánto anhelo llegar",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 335,
-    "name": "Mi hogar celestial"
+    "name": "Mi hogar celestial",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 336,
-    "name": "Del bello país he leído"
+    "name": "Del bello país he leído",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 337,
-    "name": "Nunca más adiós"
+    "name": "Nunca más adiós",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 338,
-    "name": "Las riberas de dicha inmortal"
+    "name": "Las riberas de dicha inmortal",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 339,
-    "name": "A veces oigo un himno"
+    "name": "A veces oigo un himno",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 340,
-    "name": "¡Oh, qué música divina!"
+    "name": "¡Oh, qué música divina!",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 341,
-    "name": "Más cerca del hogar"
+    "name": "Más cerca del hogar",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 342,
-    "name": "Después del río"
+    "name": "Después del río",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 343,
-    "name": "Quiero llegar a ser parte del Cielo"
+    "name": "Quiero llegar a ser parte del Cielo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 344,
-    "name": "Entonad un himno"
+    "name": "Entonad un himno",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 345,
-    "name": "Canta, y tus penas se irán"
+    "name": "Canta, y tus penas se irán",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 346,
-    "name": "¡Feliz el día!"
+    "name": "¡Feliz el día!",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 347,
-    "name": "Con gozo canto al Señor"
+    "name": "Con gozo canto al Señor",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 348,
-    "name": "Dicha grande"
+    "name": "Dicha grande",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 349,
-    "name": "Gran gozo hay en mi alma hoy"
+    "name": "Gran gozo hay en mi alma hoy",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 350,
-    "name": "Andando en la luz de Dios"
+    "name": "Andando en la luz de Dios",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 351,
-    "name": "Yo tengo gozo"
+    "name": "Yo tengo gozo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 352,
-    "name": "Gozaos, Cristo es Rey"
+    "name": "Gozaos, Cristo es Rey",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 353,
-    "name": "Suenan melodías en mi ser"
+    "name": "Suenan melodías en mi ser",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 354,
-    "name": "Voy caminando"
+    "name": "Voy caminando",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 355,
-    "name": "Yo voy feliz"
+    "name": "Yo voy feliz",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 356,
-    "name": "Gozo es conocer a Cristo"
+    "name": "Gozo es conocer a Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 357,
-    "name": "Jesús, tú eres mi alegría"
+    "name": "Jesús, tú eres mi alegría",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 358,
-    "name": "En el seno de mi alma"
+    "name": "En el seno de mi alma",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 359,
-    "name": "Regocijaos siempre"
+    "name": "Regocijaos siempre",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 360,
-    "name": "En Jesucristo, mártir de paz"
+    "name": "En Jesucristo, mártir de paz",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 361,
-    "name": "Percibe mi alma un son"
+    "name": "Percibe mi alma un son",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 362,
-    "name": "Con sin igual amor"
+    "name": "Con sin igual amor",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 363,
-    "name": "Hay un canto nuevo en mi ser"
+    "name": "Hay un canto nuevo en mi ser",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 364,
-    "name": "Jesús da paz"
+    "name": "Jesús da paz",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 365,
-    "name": "Elevemos al Señor"
+    "name": "Elevemos al Señor",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 366,
-    "name": "En Cristo hallo amigo"
+    "name": "En Cristo hallo amigo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 367,
-    "name": "Gracias, Dios"
+    "name": "Gracias, Dios",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 368,
-    "name": "Padre amado"
+    "name": "Padre amado",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 369,
-    "name": "Gratitud y alabanza"
+    "name": "Gratitud y alabanza",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 370,
-    "name": "Por la excelsa majestad"
+    "name": "Por la excelsa majestad",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 371,
-    "name": "Jesús te ama"
+    "name": "Jesús te ama",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 372,
-    "name": "¿Cómo agradecer?"
+    "name": "¿Cómo agradecer?",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 373,
-    "name": "Mi Redentor es Cristo"
+    "name": "Mi Redentor es Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 374,
-    "name": "Dulce comunión"
+    "name": "Dulce comunión",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 375,
-    "name": "Sed puros y santos"
+    "name": "Sed puros y santos",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 376,
-    "name": "Dulce oración"
+    "name": "Dulce oración",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 377,
-    "name": "A los pies de Jesucristo"
+    "name": "A los pies de Jesucristo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 378,
-    "name": "¡Oh, qué amigo nos es Cristo!"
+    "name": "¡Oh, qué amigo nos es Cristo!",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 379,
-    "name": "Habla, Señor, a mi alma"
+    "name": "Habla, Señor, a mi alma",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 380,
-    "name": "Ando con Cristo"
+    "name": "Ando con Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 381,
-    "name": "De mañana veo su faz"
+    "name": "De mañana veo su faz",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 382,
-    "name": "A solas al huerto yo voy"
+    "name": "A solas al huerto yo voy",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 383,
-    "name": "Habla a tu Dios de mañana"
+    "name": "Habla a tu Dios de mañana",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 384,
-    "name": "El jardín de oración"
+    "name": "El jardín de oración",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 385,
-    "name": "Hablando con Jesús"
+    "name": "Hablando con Jesús",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 386,
-    "name": "Hay un lugar de paz"
+    "name": "Hay un lugar de paz",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 387,
-    "name": "Aparte del mundo"
+    "name": "Aparte del mundo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 388,
-    "name": "Debo decir a Cristo"
+    "name": "Debo decir a Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 389,
-    "name": "Conversar con Jesucristo"
+    "name": "Conversar con Jesucristo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 390,
-    "name": "Soy yo, Señor"
+    "name": "Soy yo, Señor",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 391,
-    "name": "¿Le importará a Jesús?"
+    "name": "¿Le importará a Jesús?",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 392,
-    "name": "Hay quien vela mis pisadas"
+    "name": "Hay quien vela mis pisadas",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 393,
-    "name": "Mi fe contempla a ti"
+    "name": "Mi fe contempla a ti",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 394,
-    "name": "¡Cuán firme cimiento!"
+    "name": "¡Cuán firme cimiento!",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 395,
-    "name": "¡Oh, cuán dulce es fiar en Cristo!"
+    "name": "¡Oh, cuán dulce es fiar en Cristo!",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 396,
-    "name": "¡Oh qué Salvador!"
+    "name": "¡Oh qué Salvador!",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 397,
-    "name": "Oh buen Señor, velada está"
+    "name": "Oh buen Señor, velada está",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 398,
-    "name": "Cuando sopla airada la tempestad"
+    "name": "Cuando sopla airada la tempestad",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 399,
-    "name": "En estos tiempos"
+    "name": "En estos tiempos",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 400,
-    "name": "Castillo fuerte es nuestro Dios"
+    "name": "Castillo fuerte es nuestro Dios",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 401,
-    "name": "Eterna Roca es mi Jesús"
+    "name": "Eterna Roca es mi Jesús",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 402,
-    "name": "¡Oh!, salvo en la Roca"
+    "name": "¡Oh!, salvo en la Roca",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 403,
-    "name": "Cuando en la lucha"
+    "name": "Cuando en la lucha",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 404,
-    "name": "A cualquiera parte"
+    "name": "A cualquiera parte",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 405,
-    "name": "Sé quién es Jesús"
+    "name": "Sé quién es Jesús",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 406,
-    "name": "Jesús es mi luz"
+    "name": "Jesús es mi luz",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 407,
-    "name": "Muy cerca de mi Redentor"
+    "name": "Muy cerca de mi Redentor",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 408,
-    "name": "Cristo me ayuda por él a vivir"
+    "name": "Cristo me ayuda por él a vivir",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 409,
-    "name": "Si mi débil fe flaqueare"
+    "name": "Si mi débil fe flaqueare",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 410,
-    "name": "Cuando te quiero"
+    "name": "Cuando te quiero",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 411,
-    "name": "Bajo sus alas"
+    "name": "Bajo sus alas",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 412,
-    "name": "Todas las promesas"
+    "name": "Todas las promesas",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 413,
-    "name": "Si la carga es pesada"
+    "name": "Si la carga es pesada",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 414,
-    "name": "¡Oh, buen Maestro, despierta!"
+    "name": "¡Oh, buen Maestro, despierta!",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 415,
-    "name": "Salvo en los tiernos brazos"
+    "name": "Salvo en los tiernos brazos",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 416,
-    "name": "¡Oh!, tenga yo la ardiente fe"
+    "name": "¡Oh!, tenga yo la ardiente fe",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 417,
-    "name": "Dame la fe de mi Jesús"
+    "name": "Dame la fe de mi Jesús",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 418,
-    "name": "Padre, yo vengo a ti"
+    "name": "Padre, yo vengo a ti",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 419,
-    "name": "Por la justicia de Jesús"
+    "name": "Por la justicia de Jesús",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 420,
-    "name": "Nunca desmayes"
+    "name": "Nunca desmayes",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 421,
-    "name": "Cariñoso Salvador"
+    "name": "Cariñoso Salvador",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 422,
-    "name": "Nada puede ya faltarme"
+    "name": "Nada puede ya faltarme",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 423,
-    "name": "Pertenezco a mi Rey"
+    "name": "Pertenezco a mi Rey",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 424,
-    "name": "¿Cómo podré estar triste?"
+    "name": "¿Cómo podré estar triste?",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 425,
-    "name": "Día en día"
+    "name": "Día en día",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 426,
-    "name": "Tengo paz"
+    "name": "Tengo paz",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 427,
-    "name": "Lleva todo tu pesar a Cristo"
+    "name": "Lleva todo tu pesar a Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 428,
-    "name": "Su oveja soy"
+    "name": "Su oveja soy",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 429,
-    "name": "Él puede"
+    "name": "Él puede",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 430,
-    "name": "Solo no estoy"
+    "name": "Solo no estoy",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 431,
-    "name": "A él mis problemas le doy"
+    "name": "A él mis problemas le doy",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 432,
-    "name": "Como el ciervo"
+    "name": "Como el ciervo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 433,
-    "name": "Conmigo marcha un ángel"
+    "name": "Conmigo marcha un ángel",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 434,
-    "name": "Jesús es mi vida"
+    "name": "Jesús es mi vida",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 435,
-    "name": "Dios sabe, Dios oye, Dios ve"
+    "name": "Dios sabe, Dios oye, Dios ve",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 436,
-    "name": "El vive hoy"
+    "name": "El vive hoy",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 437,
-    "name": "Tu presencia, Padre amado,  da consuelo"
+    "name": "Tu presencia, Padre amado,  da consuelo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 438,
-    "name": "Mira hacia Dios"
+    "name": "Mira hacia Dios",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 439,
-    "name": "¡Oh!, quién pudiera andar con Dios"
+    "name": "¡Oh!, quién pudiera andar con Dios",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 440,
-    "name": "Quiero, Jesús, contigo andar"
+    "name": "Quiero, Jesús, contigo andar",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 441,
-    "name": "Jesús, te necesito"
+    "name": "Jesús, te necesito",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 442,
-    "name": "¡Oh! ¡Maestro y Salvador!"
+    "name": "¡Oh! ¡Maestro y Salvador!",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 443,
-    "name": "Hay un lugar do quiero estar, cerca de ti"
+    "name": "Hay un lugar do quiero estar, cerca de ti",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 444,
-    "name": "No me pases"
+    "name": "No me pases",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 445,
-    "name": "Más de Jesús"
+    "name": "Más de Jesús",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 446,
-    "name": "Más cerca, oh Dios, de ti"
+    "name": "Más cerca, oh Dios, de ti",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 447,
-    "name": "Más santidad dame"
+    "name": "Más santidad dame",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 448,
-    "name": "Salvador, mi bien eterno"
+    "name": "Salvador, mi bien eterno",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 449,
-    "name": "Cristo, mi piloto sé"
+    "name": "Cristo, mi piloto sé",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 450,
-    "name": "¡Oh Jesús, Pastor divino!"
+    "name": "¡Oh Jesús, Pastor divino!",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 451,
-    "name": "Cerca, más cerca"
+    "name": "Cerca, más cerca",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 452,
-    "name": "Contigo quiero andar"
+    "name": "Contigo quiero andar",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 453,
-    "name": "Cómo ser cual Cristo"
+    "name": "Cómo ser cual Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 454,
-    "name": "Yo quisiera andar con Cristo"
+    "name": "Yo quisiera andar con Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 455,
-    "name": "Mi mano ten"
+    "name": "Mi mano ten",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 456,
-    "name": "Como la mujer de junto al pozo"
+    "name": "Como la mujer de junto al pozo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 457,
-    "name": "More en mí la belleza del Salvador"
+    "name": "More en mí la belleza del Salvador",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 458,
-    "name": "Orad por mí"
+    "name": "Orad por mí",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 459,
-    "name": "Háblame más de Cristo"
+    "name": "Háblame más de Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 460,
-    "name": "Quiero estar cerca de Cristo"
+    "name": "Quiero estar cerca de Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 461,
-    "name": "A tu lado anhelo estar"
+    "name": "A tu lado anhelo estar",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 462,
-    "name": "Dame a Cristo"
+    "name": "Dame a Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 463,
-    "name": "Mi oración"
+    "name": "Mi oración",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 464,
-    "name": "Ven, inspíranos"
+    "name": "Ven, inspíranos",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 465,
-    "name": "Ven junto a mí"
+    "name": "Ven junto a mí",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 466,
-    "name": "Guíame, ¡oh Salvador!"
+    "name": "Guíame, ¡oh Salvador!",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 467,
-    "name": "¡Siempre el Salvador conmigo!"
+    "name": "¡Siempre el Salvador conmigo!",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 468,
-    "name": "Paso a paso Dios me guía"
+    "name": "Paso a paso Dios me guía",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 469,
-    "name": "Jesús me guía"
+    "name": "Jesús me guía",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 470,
-    "name": "Guíame, Dios"
+    "name": "Guíame, Dios",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 471,
-    "name": "Condúceme, Maestro"
+    "name": "Condúceme, Maestro",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 472,
-    "name": "Jesús, mi guía es"
+    "name": "Jesús, mi guía es",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 473,
-    "name": "Háblame, y hablaré"
+    "name": "Háblame, y hablaré",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 474,
-    "name": "¿Qué me importan?"
+    "name": "¿Qué me importan?",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 475,
-    "name": "El camino es escabroso"
+    "name": "El camino es escabroso",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 476,
-    "name": "¿Muy lejos el hogar está?"
+    "name": "¿Muy lejos el hogar está?",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 477,
-    "name": "Los que aman al Señor"
+    "name": "Los que aman al Señor",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 478,
-    "name": "Sé fiel siempre, hermano"
+    "name": "Sé fiel siempre, hermano",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 479,
-    "name": "De la mano, Señor"
+    "name": "De la mano, Señor",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 480,
-    "name": "Digno eres, oh Señor"
+    "name": "Digno eres, oh Señor",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 481,
-    "name": "Voy al Cielo"
+    "name": "Voy al Cielo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 482,
-    "name": "Quiero cantar"
+    "name": "Quiero cantar",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 483,
-    "name": "Cuando al Cielo lleguemos"
+    "name": "Cuando al Cielo lleguemos",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 484,
-    "name": "Busca al Señor"
+    "name": "Busca al Señor",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 485,
-    "name": "Unidos en verdad"
+    "name": "Unidos en verdad",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 486,
-    "name": "En los pasos de Jesús"
+    "name": "En los pasos de Jesús",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 487,
-    "name": "Cristo, eres justo Rey"
+    "name": "Cristo, eres justo Rey",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 488,
-    "name": "Al andar con Jesús"
+    "name": "Al andar con Jesús",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 489,
-    "name": "Solo anhelo, Cristo amado"
+    "name": "Solo anhelo, Cristo amado",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 490,
-    "name": "Mejor que los sacrificios"
+    "name": "Mejor que los sacrificios",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 491,
-    "name": "Levántate, cristiano"
+    "name": "Levántate, cristiano",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 492,
-    "name": "¡Trabajad! ¡Trabajad!"
+    "name": "¡Trabajad! ¡Trabajad!",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 493,
-    "name": "Hoy quiero trabajar contigo"
+    "name": "Hoy quiero trabajar contigo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 494,
-    "name": "Cerca un alma agobiada está"
+    "name": "Cerca un alma agobiada está",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 495,
-    "name": "Mi deber"
+    "name": "Mi deber",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 496,
-    "name": "Sus manos somos"
+    "name": "Sus manos somos",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 497,
-    "name": "Manos"
+    "name": "Manos",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 498,
-    "name": "Puedes demostrar con tus manos"
+    "name": "Puedes demostrar con tus manos",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 499,
-    "name": "Jesús anduvo por aquí"
+    "name": "Jesús anduvo por aquí",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 500,
-    "name": "Hazme tu siervo"
+    "name": "Hazme tu siervo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 501,
-    "name": "Mi vida al servicio de Dios"
+    "name": "Mi vida al servicio de Dios",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 502,
-    "name": "Brilla en el sitio donde estés"
+    "name": "Brilla en el sitio donde estés",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 503,
-    "name": "Oh Dios, que deseas la vida"
+    "name": "Oh Dios, que deseas la vida",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 504,
-    "name": "Señor de todos"
+    "name": "Señor de todos",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 505,
-    "name": "Hijo del reino"
+    "name": "Hijo del reino",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 506,
-    "name": "¡De pie, de pie, cristianos!"
+    "name": "¡De pie, de pie, cristianos!",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 507,
-    "name": "Tentado, no cedas"
+    "name": "Tentado, no cedas",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 508,
-    "name": "Contendamos siempre por nuestra fe"
+    "name": "Contendamos siempre por nuestra fe",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 509,
-    "name": "¡Firmes! ¡Fuertes!"
+    "name": "¡Firmes! ¡Fuertes!",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 510,
-    "name": "¿Quién está por Cristo?"
+    "name": "¿Quién está por Cristo?",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 511,
-    "name": "Marcharé en la divina luz"
+    "name": "Marcharé en la divina luz",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 512,
-    "name": "Nunca estéis desanimados"
+    "name": "Nunca estéis desanimados",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 513,
-    "name": "Honra al hombre de valor"
+    "name": "Honra al hombre de valor",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 514,
-    "name": "¡Despertad, despertad, oh cristianos!"
+    "name": "¡Despertad, despertad, oh cristianos!",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 515,
-    "name": "Despliegue el cristiano su santa bandera"
+    "name": "Despliegue el cristiano su santa bandera",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 516,
-    "name": "¡Firmes y adelante!"
+    "name": "¡Firmes y adelante!",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 517,
-    "name": "De pie, oh grey de Dios"
+    "name": "De pie, oh grey de Dios",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 518,
-    "name": "Jesús está buscando voluntarios hoy"
+    "name": "Jesús está buscando voluntarios hoy",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 519,
-    "name": "Despierta, hermano, sin demorar"
+    "name": "Despierta, hermano, sin demorar",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 520,
-    "name": "¡Adelante! Manda el Señor"
+    "name": "¡Adelante! Manda el Señor",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 521,
-    "name": "Al Cristo ved"
+    "name": "Al Cristo ved",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 522,
-    "name": "Suenen las palabras"
+    "name": "Suenen las palabras",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 523,
-    "name": "Los sabios dan su ciencia"
+    "name": "Los sabios dan su ciencia",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 524,
-    "name": "Traían en silencio presentes al Señor"
+    "name": "Traían en silencio presentes al Señor",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 525,
-    "name": "Con gratitud, llegamos"
+    "name": "Con gratitud, llegamos",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 526,
-    "name": "Oh, mi patria, te prometo hoy"
+    "name": "Oh, mi patria, te prometo hoy",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 527,
-    "name": "Señor Jehová, omnipotente Dios"
+    "name": "Señor Jehová, omnipotente Dios",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 528,
-    "name": "Por montañas, muy cansado"
+    "name": "Por montañas, muy cansado",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 529,
-    "name": "Iglesia de Cristo"
+    "name": "Iglesia de Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 530,
-    "name": "Somos un pequeño pueblo muy feliz"
+    "name": "Somos un pequeño pueblo muy feliz",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 531,
-    "name": "La familia de Dios"
+    "name": "La familia de Dios",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 532,
-    "name": "Sagrado es el amor"
+    "name": "Sagrado es el amor",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 533,
-    "name": "Cuán bueno y agradable"
+    "name": "Cuán bueno y agradable",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 534,
-    "name": "En tu nombre comenzamos"
+    "name": "En tu nombre comenzamos",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 535,
-    "name": "Las faenas terminadas"
+    "name": "Las faenas terminadas",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 536,
-    "name": "En sombras de la tarde"
+    "name": "En sombras de la tarde",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 537,
-    "name": "Sábado santo"
+    "name": "Sábado santo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 538,
-    "name": "Hoy es día de reposo"
+    "name": "Hoy es día de reposo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 539,
-    "name": "¡Oh, día delicioso!"
+    "name": "¡Oh, día delicioso!",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 540,
-    "name": "Ya asoma el sol brillante"
+    "name": "Ya asoma el sol brillante",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 541,
-    "name": "Señor, reposamos"
+    "name": "Señor, reposamos",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 542,
-    "name": "Amo tu sábado"
+    "name": "Amo tu sábado",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 543,
-    "name": "No te olvides nunca del día del Señor"
+    "name": "No te olvides nunca del día del Señor",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 544,
-    "name": "Hoy el sábado glorioso"
+    "name": "Hoy el sábado glorioso",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 545,
-    "name": "Santo día"
+    "name": "Santo día",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 546,
-    "name": "Santo sábado, bendito"
+    "name": "Santo sábado, bendito",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 547,
-    "name": "Sábado es"
+    "name": "Sábado es",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 548,
-    "name": "Mi corazón se llena de alegría"
+    "name": "Mi corazón se llena de alegría",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 549,
-    "name": "Ya el fin se acerca"
+    "name": "Ya el fin se acerca",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 550,
-    "name": "Día santo del Señor"
+    "name": "Día santo del Señor",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 551,
-    "name": "Embajador soy de mi Rey"
+    "name": "Embajador soy de mi Rey",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 552,
-    "name": "¡Oh!, cuánto necesita"
+    "name": "¡Oh!, cuánto necesita",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 553,
-    "name": "¿Os pusisteis a arar?"
+    "name": "¿Os pusisteis a arar?",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 554,
-    "name": "Con Cristo avanza hoy"
+    "name": "Con Cristo avanza hoy",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 555,
-    "name": "Hoy gozoso medito"
+    "name": "Hoy gozoso medito",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 556,
-    "name": "Yo quiero siempre brillar"
+    "name": "Yo quiero siempre brillar",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 557,
-    "name": "¿Qué estás haciendo por Cristo?"
+    "name": "¿Qué estás haciendo por Cristo?",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 558,
-    "name": "Ama a tus prójimos"
+    "name": "Ama a tus prójimos",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 559,
-    "name": "No te dé temor"
+    "name": "No te dé temor",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 560,
-    "name": "Cristo está buscando obreros"
+    "name": "Cristo está buscando obreros",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 561,
-    "name": "Oigo del Señor la voz llamando"
+    "name": "Oigo del Señor la voz llamando",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 562,
-    "name": "Esparcid la luz de Cristo"
+    "name": "Esparcid la luz de Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 563,
-    "name": "Escuchad, Jesús nos dice"
+    "name": "Escuchad, Jesús nos dice",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 564,
-    "name": "Pronto la noche viene"
+    "name": "Pronto la noche viene",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 565,
-    "name": "¡Ve, ve oh Sion!"
+    "name": "¡Ve, ve oh Sion!",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 566,
-    "name": "Centinelas del Maestro"
+    "name": "Centinelas del Maestro",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 567,
-    "name": "Si en valles de peligros"
+    "name": "Si en valles de peligros",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 568,
-    "name": "Hay lugar en la amplia viña"
+    "name": "Hay lugar en la amplia viña",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 569,
-    "name": "Id y predicad el evangelio"
+    "name": "Id y predicad el evangelio",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 570,
-    "name": "Voluntario del Señor"
+    "name": "Voluntario del Señor",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 571,
-    "name": "La historia de Cristo contemos"
+    "name": "La historia de Cristo contemos",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 572,
-    "name": "Pescadores de hombres"
+    "name": "Pescadores de hombres",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 573,
-    "name": "Te envío a ti"
+    "name": "Te envío a ti",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 574,
-    "name": "Testimonio"
+    "name": "Testimonio",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 575,
-    "name": "Tocad trompeta ya"
+    "name": "Tocad trompeta ya",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 576,
-    "name": "Proclamo hoy que soy cristiano"
+    "name": "Proclamo hoy que soy cristiano",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 577,
-    "name": "Yo quiero trabajar"
+    "name": "Yo quiero trabajar",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 578,
-    "name": "El pueblo que conoce a su Dios"
+    "name": "El pueblo que conoce a su Dios",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 579,
-    "name": "La fuente veo"
+    "name": "La fuente veo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 580,
-    "name": "Las aguas del bautismo"
+    "name": "Las aguas del bautismo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 581,
-    "name": "El Pan de vida soy"
+    "name": "El Pan de vida soy",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 582,
-    "name": "Hoy venimos cual hermanos"
+    "name": "Hoy venimos cual hermanos",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 583,
-    "name": "La Cena de la Comunión"
+    "name": "La Cena de la Comunión",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 584,
-    "name": "Amémonos, hermanos"
+    "name": "Amémonos, hermanos",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 585,
-    "name": "De rodillas partimos hoy el pan"
+    "name": "De rodillas partimos hoy el pan",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 586,
-    "name": "En memoria de mí"
+    "name": "En memoria de mí",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 587,
-    "name": "Te dedicamos, oh Señor"
+    "name": "Te dedicamos, oh Señor",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 588,
-    "name": "Ven, alma que lloras"
+    "name": "Ven, alma que lloras",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 589,
-    "name": "Perfecto amor"
+    "name": "Perfecto amor",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 590,
-    "name": "Guía a ti, Señor"
+    "name": "Guía a ti, Señor",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 591,
-    "name": "Todo es bello en el hogar"
+    "name": "Todo es bello en el hogar",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 592,
-    "name": "Si Dios está, ¡feliz hogar!"
+    "name": "Si Dios está, ¡feliz hogar!",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 593,
-    "name": "Hogar de mis recuerdos"
+    "name": "Hogar de mis recuerdos",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 594,
-    "name": "Señor, gracias por mi hogar"
+    "name": "Señor, gracias por mi hogar",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 595,
-    "name": "Feliz hogar"
+    "name": "Feliz hogar",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 596,
-    "name": "Edificamos familias"
+    "name": "Edificamos familias",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 597,
-    "name": "Oración por un niño"
+    "name": "Oración por un niño",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 598,
-    "name": "Cristo, yo te seguiré"
+    "name": "Cristo, yo te seguiré",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 599,
-    "name": "En este bello día"
+    "name": "En este bello día",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 600,
-    "name": "Cuando venga Jesucristo"
+    "name": "Cuando venga Jesucristo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 601,
-    "name": "Cuando leo en la Biblia"
+    "name": "Cuando leo en la Biblia",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 602,
-    "name": "Es el amor divino"
+    "name": "Es el amor divino",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 603,
-    "name": "Yo temprano busco a Cristo"
+    "name": "Yo temprano busco a Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 604,
-    "name": "Bellas las manitas son"
+    "name": "Bellas las manitas son",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 605,
-    "name": "Jesús tiene tiempo"
+    "name": "Jesús tiene tiempo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 606,
-    "name": "Llama Jesús, el Buen Pastor"
+    "name": "Llama Jesús, el Buen Pastor",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 607,
-    "name": "Nítido rayo por Cristo"
+    "name": "Nítido rayo por Cristo",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 608,
-    "name": "Corazones siempre alegres"
+    "name": "Corazones siempre alegres",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 609,
-    "name": "¡Oh jóvenes, venid!"
+    "name": "¡Oh jóvenes, venid!",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 610,
-    "name": "Escuchamos tu llamada"
+    "name": "Escuchamos tu llamada",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 611,
-    "name": "Oh, juventud del Rey"
+    "name": "Oh, juventud del Rey",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 612,
-    "name": "Jesús te necesita hoy"
+    "name": "Jesús te necesita hoy",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   },
   {
     "number": 613,
-    "name": "Hoy nos toca trabajar"
+    "name": "Hoy nos toca trabajar",
+    "lyrics": [],
+    "timestamps": [],
+    "doubleChorus": false
   }
 ]

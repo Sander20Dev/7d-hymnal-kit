@@ -15,7 +15,7 @@ export default async function TimeMarkerPage({
 
   if (hymn == null) return notFound()
 
-  if (hymn.lyrics == null)
+  if (hymn.lyrics.length === 0)
     return (
       <main className='grid place-content-center'>
         <Link

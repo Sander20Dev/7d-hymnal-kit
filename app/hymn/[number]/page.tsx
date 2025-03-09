@@ -30,22 +30,26 @@ export default async function HymnPage({
         target='_blank'
         href={getHymnLyricsUrl(hymn.number)}
         className='col-span-2 row-span-3 row-start-2 bg-white hover:bg-blue-50 flex flex-col justify-center items-center p-4 text-center gap-4 flex-wrap rounded-xl'>
-        {hymn.lyrics?.map(({ lines, kind }, i, arr) => (
-          <section key={'line-' + i}>
-            <p className='font-bold'>
-              {kind === 'chorus'
-                ? 'Coro:'
-                : 'Estrofa ' +
-                  (arr.slice(0, i).some(({ kind }) => kind === 'chorus')
-                    ? i
-                    : i + 1) +
-                  ':'}
-            </p>
-            {lines.map((l) => (
-              <p key={'line-' + i + '-' + l}>{l}</p>
-            ))}
-          </section>
-        )) ?? <p>Aún no se ha transcito este himno.</p>}
+        {hymn.lyrics.length !== 0 ? (
+          hymn.lyrics.map(({ lines, kind }, i, arr) => (
+            <section key={'line-' + i}>
+              <p className='font-bold'>
+                {kind === 'chorus'
+                  ? 'Coro:'
+                  : 'Estrofa ' +
+                    (arr.slice(0, i).some(({ kind }) => kind === 'chorus')
+                      ? i
+                      : i + 1) +
+                    ':'}
+              </p>
+              {lines.map((l) => (
+                <p key={'line-' + i + '-' + l}>{l}</p>
+              ))}
+            </section>
+          ))
+        ) : (
+          <p>Aún no se ha transcito este himno.</p>
+        )}
       </Link>
       <Link
         target='_blank'
