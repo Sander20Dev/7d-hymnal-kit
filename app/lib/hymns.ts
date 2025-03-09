@@ -1,20 +1,13 @@
 import allHymns from '@/app/lib/mock/hymns.json'
-import type { CompletedHymn, Hymn } from '../types'
+import type { Hymn } from '../types'
 
 export const hymns = allHymns as Hymn[]
 
 export function isHymnReady(hymn: Hymn) {
-  const h = hymn as CompletedHymn
-
-  if (h.verseAssociated == null) return false
-  if (h.lyrics == null) return false
-  if (h.lyrics.length === 0) return false
-  if (
-    h.lyrics.some(
-      (l) => l.lines.length === 0 || l.lines.some((l) => l.timestamp < 0)
-    )
-  )
-    return false
+  if (hymn.verseAssociated == null) return false
+  if (hymn.lyrics == null) return false
+  if (hymn.lyrics.length === 0) return false
+  if (hymn.timestamps == null) return false
 
   return true
 }
