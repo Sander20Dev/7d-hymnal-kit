@@ -23,7 +23,7 @@ export default function HymnsGallery() {
 
   useEffect(() => {
     if (debounceTimer.current != null) {
-      clearTimeout(debounceTimer.current)
+      window.clearTimeout(debounceTimer.current)
     }
 
     debounceTimer.current = window.setTimeout(() => {
@@ -39,7 +39,7 @@ export default function HymnsGallery() {
           setFilteredHymns(hymns)
           const totalPages = Math.ceil((result.length || 613) / 50)
           setTotalPages(totalPages)
-          setCurrentPage(currentPage > totalPages ? totalPages : currentPage)
+          setCurrentPage((c) => (c > totalPages ? totalPages : c))
         })
         .finally(() => {
           setIsLoading(false)
