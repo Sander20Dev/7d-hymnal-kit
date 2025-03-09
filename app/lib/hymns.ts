@@ -1,7 +1,5 @@
-import allHymns from '@/app/lib/mock/hymns.json'
 import type { Hymn } from '../types'
-
-export const hymns = allHymns as Hymn[]
+import { HymnServerModel } from './models/hymns.server'
 
 export function isHymnReady(hymn: Hymn) {
   if (hymn.verseAssociated == null) return false
@@ -13,14 +11,8 @@ export function isHymnReady(hymn: Hymn) {
   return true
 }
 
-export const hymnsSortedByNoReady = hymns.concat().sort((a, b) => {
-  let numA = !isHymnReady(a) ? a.number : a.number + 613
-  let numB = !isHymnReady(b) ? b.number : b.number + 613
-  return numA - numB
-})
-
 export function getHymnLyricsUrl(hymnNumber: number) {
-  if (hymnNumber < 1 || hymnNumber > hymns.length) return ''
+  if (hymnNumber < 1 || hymnNumber > 613) return ''
 
   if (hymnNumber < 101)
     return 'https://docs.google.com/document/d/1N5-lFoKF6UJx2VFWp4AzHi2SJSBdXQm_c7zz78bvXyE/edit?usp=drive_link'
@@ -32,4 +24,18 @@ export function getHymnLyricsUrl(hymnNumber: number) {
     return 'https://docs.google.com/document/d/1ItG7FqoaFsGE0LbIuxUKKVUEyxzfEdXO4t_b0VSV4zs/edit?usp=drive_link'
 
   return 'https://docs.google.com/document/d/1la0CHme9cqiTXoWHikJwmzsQeXOaS2MPTR8rUHtpCrM/edit?usp=drive_link'
+}
+
+export async function getHymnFromServer(number?: string) {
+  if (number == null) return null
+
+  const num = Number(number)
+
+  if (Number.isNaN(num)) return null
+
+  const hymn = await HymnServerModel.getHymn(num)
+
+  if (hymn == null) return null
+
+  return hymn
 }

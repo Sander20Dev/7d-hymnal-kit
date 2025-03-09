@@ -1,16 +1,15 @@
-import { getHymnLyricsUrl, hymns } from '@/app/lib/hymns'
+import { getHymnFromServer, getHymnLyricsUrl } from '@/app/lib/hymns'
 import { PageProps } from '@/app/types'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
+import VerseAssociated from './ui/verse-associated'
 
 export default async function HymnPage({
   params,
 }: PageProps<{ number: string }>) {
   const number = (await params).number
 
-  if (number == null) return notFound()
-
-  const hymn = hymns.find((h) => h.number.toString() === number)
+  const hymn = await getHymnFromServer(number)
 
   if (hymn == null) return notFound()
 
@@ -27,12 +26,10 @@ export default async function HymnPage({
         </h1>
       </div>
 
-      <Link
-        target='_blank'
-        href='https://docs.google.com/spreadsheets/d/1QZOdJLYAYf8_YqKyCNqnL5V1D4SbkBFcyEV_pLvjFVY/edit?usp=sharing'
-        className='sm:col-start-3 sm:row-start-2 bg-blue-100 hover:bg-blue-200 flex justify-center items-center text-center p-4 rounded-xl text-xl'>
-        {hymn.verseAssociated ?? 'No se tiene el versículo asociado.'}
-      </Link>
+      <VerseAssociated
+        number={hymn.number}
+        verseAssociated={hymn.verseAssociated}
+      />
       <Link
         href={`/hymn/${hymn.number}/time-marker`}
         className='sm:row-span-2 sm:col-start-3 sm:row-start-3 bg-amber-100 hover:bg-amber-200 flex justify-center p-4 rounded-xl text-xl text-center items-center'>

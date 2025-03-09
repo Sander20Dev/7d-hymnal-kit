@@ -1,11 +1,9 @@
-export type Hymn = BaseHymn & ExtraHymn
-
 export interface BaseHymn {
   number: number
   name: string
 }
 
-export interface ExtraHymn {
+export interface Hymn extends BaseHymn {
   lyrics: HymnVerse[]
   verseAssociated?: string // TODO: Make this required
   timestamps: number[]

@@ -7,6 +7,7 @@ import TimeMarkerControls from './time-marker-controls'
 import clsx from 'clsx'
 import { PrimaryButton } from './buttons'
 import Link from 'next/link'
+import { clientDB } from '@/app/lib/db/db.client'
 
 interface TimeMarkerProps {
   number: number
@@ -109,28 +110,39 @@ export default function TimeMarker({
               value={`[${timestamps.join(', ')}]`}
             />
             <PrimaryButton
-              onClick={() => {
-                ;(
-                  document.getElementById('clipboard') as HTMLInputElement
-                )?.select()
-                if (window.navigator.clipboard == null) {
-                  document.execCommand('copy')
-                } else {
-                  window.navigator.clipboard.writeText(
-                    `[${timestamps.join(', ')}]`
-                  )
-                }
+              onClick={async () => {
+                if (!confirm('¿Está seguro de que desea guardar?')) return
+
+                const timestampsString = JSON.stringify(timestamps)
+
+                await clientDB.execute({
+                  sql: 'UPDATE hymn_info SET timestamps = ? WHERE number = ?',
+                  args: [timestampsString, number],
+                })
+
+                window.location.reload()
+
+                // ;(
+                //   document.getElementById('clipboard') as HTMLInputElement
+                // )?.select()
+                // if (window.navigator.clipboard == null) {
+                //   document.execCommand('copy')
+                // } else {
+                //   window.navigator.clipboard.writeText(
+                //     `[${timestamps.join(', ')}]`
+                //   )
+                // }
               }}
               disabled={timestamps.length !== length}
               title='Guarda el tiempo marcado'>
               Guardar
             </PrimaryButton>
-            <Link
+            {/* <Link
               className='bg-amber-300 hover:bg-amber-400 px-2 py-1'
               href='https://docs.google.com/spreadsheets/d/13Se-F9Bpi-QkfsQw4l2p5Q_PaiZW9mGPjdjoRVDguMQ/edit?usp=sharing'
               target='_blank'>
               Ir al registro
-            </Link>
+            </Link> */}
           </section>
         )}
       </section>

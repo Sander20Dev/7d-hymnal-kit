@@ -1,4 +1,5 @@
 import { isHymnReady } from '@/app/lib/hymns'
+import { HymnClientModel } from '@/app/lib/models/hymns.client'
 import { getThumbnail } from '@/app/lib/thumbnails'
 import type { Hymn } from '@/app/types'
 import Link from 'next/link'

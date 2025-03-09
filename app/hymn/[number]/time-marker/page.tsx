@@ -1,4 +1,4 @@
-import { getHymnLyricsUrl, hymns } from '@/app/lib/hymns'
+import { getHymnFromServer, getHymnLyricsUrl } from '@/app/lib/hymns'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import TimeMarker from './ui/time-marker'
@@ -9,9 +9,7 @@ export default async function TimeMarkerPage({
 }: PageProps<{ number: string }>) {
   const number = (await params).number
 
-  if (number == null) return notFound()
-
-  const hymn = hymns.find((h) => h.number.toString() === number)
+  const hymn = await getHymnFromServer(number)
 
   if (hymn == null) return notFound()
 
