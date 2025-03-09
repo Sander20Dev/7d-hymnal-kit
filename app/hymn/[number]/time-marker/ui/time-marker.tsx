@@ -6,6 +6,7 @@ import AudioPlayer from './audio-player'
 import TimeMarkerControls from './time-marker-controls'
 import clsx from 'clsx'
 import { PrimaryButton } from './buttons'
+import Link from 'next/link'
 
 interface TimeMarkerProps {
   number: number
@@ -124,6 +125,12 @@ export default function TimeMarker({
               title='Guarda el tiempo marcado'>
               Guardar
             </PrimaryButton>
+            <Link
+              className='bg-amber-300 hover:bg-amber-400'
+              href='https://docs.google.com/spreadsheets/d/1QZOdJLYAYf8_YqKyCNqnL5V1D4SbkBFcyEV_pLvjFVY/edit?usp=sharing'
+              target='_blank'>
+              Ir al registro
+            </Link>
           </section>
         )}
       </section>
