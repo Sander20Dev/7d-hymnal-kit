@@ -23,3 +23,7 @@ export interface VerseLine {
   text: string
   timestamp: number
 }
+
+export type PageProps<T> = {
+  params: Promise<T>
+}

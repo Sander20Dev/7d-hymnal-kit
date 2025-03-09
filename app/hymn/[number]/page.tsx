@@ -1,12 +1,16 @@
 import { getHymnLyricsUrl, hymns } from '@/app/lib/hymns'
-import { CompletedHymn } from '@/app/types'
+import { PageProps } from '@/app/types'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 
-export default function HymnPage({ params }: { params: { number: string } }) {
-  if (params.number == null) return notFound()
+export default async function HymnPage({
+  params,
+}: PageProps<{ number: string }>) {
+  const number = (await params).number
 
-  const hymn = hymns.find((h) => h.number.toString() === params.number)
+  if (number == null) return notFound()
+
+  const hymn = hymns.find((h) => h.number.toString() === number)
 
   if (hymn == null) return notFound()
 
