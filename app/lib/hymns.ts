@@ -22,8 +22,12 @@ export function getHymnLyricsUrl(hymnNumber: number) {
     return 'https://docs.google.com/document/d/1W2h232QHdfFbq8-sD9g9faCyaLCt0-FmpPCkbeFQuRU/edit?usp=drive_link'
   if (hymnNumber < 401)
     return 'https://docs.google.com/document/d/1ItG7FqoaFsGE0LbIuxUKKVUEyxzfEdXO4t_b0VSV4zs/edit?usp=drive_link'
+  if (hymnNumber < 501)
+    return 'https://docs.google.com/document/d/1QrO-F-oH9Y6paIL6NUYGDJsRRuylyqAsnmoxJCOGKW0/edit?usp=sharing'
+  if (hymnNumber < 601)
+    return 'https://docs.google.com/document/d/1LpsYJuAF6PejXeRRCP5llKLNIr9LLLFjqt97Cm_FbQ0/edit?usp=sharing'
 
-  return 'https://docs.google.com/document/d/1la0CHme9cqiTXoWHikJwmzsQeXOaS2MPTR8rUHtpCrM/edit?usp=drive_link'
+  return 'https://docs.google.com/document/d/1gimloPgtrgTND66U-ft-mZWSCkduLcD3aIAVAXDyM6Q/edit?usp=sharing'
 }
 
 export async function getHymnFromServer(number?: string) {
