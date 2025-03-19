@@ -1,67 +1,104 @@
 import type { Hymn, BaseHymn } from '@/app/types'
 import type { Client, ResultSet } from '@libsql/client'
 
-export async function getBaseHymns(clientDB: Client): Promise<BaseHymn[]> {
-  const result = await clientDB.execute(
-    'SELECT * FROM hymn_info ORDER BY number ASC'
-  )
+export default class HymnModel {
+  constructor(public clientDB: Client) {}
 
-  return parseBaseHymn(result)
-}
+  async getBaseHymns(): Promise<BaseHymn[]> {
+    const result = await this.clientDB.execute(
+      'SELECT * FROM hymn_info ORDER BY number ASC'
+    )
 
-export async function getHymns(
-  clientDB: Client,
-  { offset = 0, limit = 50 } = {}
-): Promise<Hymn[]> {
-  const result = await clientDB.execute({
-    sql: 'SELECT * FROM hymn_info ORDER BY number ASC LIMIT ? OFFSET ?',
-    args: [limit, offset],
-  })
+    return parseBaseHymn(result)
+  }
 
-  return parseHymn(result)
-}
+  async getHymns({ offset = 0, limit = 50 } = {}): Promise<Hymn[]> {
+    const result = await this.clientDB.execute({
+      sql: 'SELECT * FROM hymn_info ORDER BY number ASC LIMIT ? OFFSET ?',
+      args: [limit, offset],
+    })
 
-export async function getHymn(
-  clientDB: Client,
-  number: number
-): Promise<Hymn | null> {
-  const result = await clientDB.execute({
-    sql: 'SELECT * FROM hymn_info WHERE number = ?',
-    args: [number],
-  })
+    return parseHymn(result)
+  }
 
-  const [hymn] = parseHymn(result)
+  async getHymn(number: number): Promise<Hymn | null> {
+    const result = await this.clientDB.execute({
+      sql: 'SELECT * FROM hymn_info WHERE number = ?',
+      args: [number],
+    })
 
-  if (hymn == null) return null
+    const [hymn] = parseHymn(result)
 
-  return hymn
-}
+    if (hymn == null) return null
 
-export async function setHymn(clientDB: Client, hymn: Hymn): Promise<void> {
-  await clientDB.execute({
-    sql: 'INSERT INTO hymn_info (number, name, lyrics, verse_associated, timestamps, double_chorus) VALUES (?, ?, ?, ?, ?, ?)',
-    args: [
-      hymn.number,
-      hymn.name,
-      JSON.stringify(hymn.lyrics),
-      hymn.verseAssociated ?? 'NULL',
-      JSON.stringify(hymn.timestamps),
-      hymn.doubleChorus ? 1 : 0,
-    ],
-  })
-}
+    return hymn
+  }
 
-export async function searchHymns(
-  clientDB: Client,
-  search: string,
-  { offset = 0, limit = 50 } = {}
-): Promise<Hymn[]> {
-  const result = await clientDB.execute({
-    sql: 'SELECT * FROM hymn_info WHERE name LIKE ? OR number LIKE ? ORDER BY number ASC LIMIT ? OFFSET ?',
-    args: [`%${search}%`, `%${search}%`, limit, offset],
-  })
+  async setHymn(hymn: Hymn): Promise<void> {
+    await this.clientDB.execute({
+      sql: 'INSERT INTO hymn_info (number, name, lyrics, verse_associated, timestamps, double_chorus) VALUES (?, ?, ?, ?, ?, ?)',
+      args: [
+        hymn.number,
+        hymn.name,
+        JSON.stringify(hymn.lyrics),
+        hymn.verseAssociated ?? 'NULL',
+        JSON.stringify(hymn.timestamps),
+        hymn.doubleChorus ? 1 : 0,
+      ],
+    })
+  }
 
-  return parseHymn(result)
+  async searchHymns(
+    search: string,
+    {
+      offset = 0,
+      limit = 50,
+      withLyrics,
+      withTimestamps,
+    }: {
+      offset?: number
+      limit?: number
+      withLyrics?: boolean
+      withTimestamps?: boolean
+    } = {}
+  ): Promise<{ data: BaseHymn[]; count: number }> {
+    const lyricsFilter =
+      withLyrics == null
+        ? null
+        : withLyrics
+        ? 'lyrics != "[]"'
+        : 'lyrics = "[]"'
+
+    const timestampsFilter =
+      withTimestamps == null
+        ? null
+        : withTimestamps
+        ? 'timestamps != "[]" AND timestamps IS NOT NULL'
+        : '(timestamps = "[]" OR timestamps IS NULL)'
+
+    const filters = [lyricsFilter, timestampsFilter]
+      .filter(Boolean)
+      .join(' AND ')
+
+    const sql = (data: string) =>
+      `SELECT ${data} FROM hymn_info WHERE ${
+        filters && filters + ' AND '
+      }(name LIKE ? OR number LIKE ?) ORDER BY number ASC LIMIT ? OFFSET ?`
+
+    const result = await this.clientDB.execute({
+      sql: sql('name, number'),
+      args: [`%${search}%`, `%${search}%`, limit, offset],
+    })
+
+    const countResult = await this.clientDB.execute({
+      sql: sql('COUNT(name)'),
+      args: [`%${search}%`, `%${search}%`, 613, 0],
+    })
+
+    const count = countResult.rows[0][0] as number
+
+    return { data: parseBaseHymn(result), count }
+  }
 }
 
 function parseHymn(result: ResultSet): Hymn[] {
@@ -89,8 +126,6 @@ function parseHymn(result: ResultSet): Hymn[] {
     const verseAssociated = row[verseAssociatedIndex] ?? undefined
     const timestamps = row[timestampsIndex]
     const doubleChorus = row[doubleChorusIndex]
-
-    console.log({ verseAssociated })
 
     if (typeof number !== 'number') throw new Error('number is not a number')
     if (typeof name !== 'string') throw new Error('name is not a string')

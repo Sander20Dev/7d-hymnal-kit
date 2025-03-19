@@ -3,13 +3,14 @@
 import { useEffect, useRef, useState } from 'react'
 import SearchBar from './search-bar'
 import HymnCollection from './hymn-collection'
-import { BaseHymn, Hymn } from '@/app/types'
+import { BaseHymn } from '@/app/types'
 import { HymnClientModel } from '@/app/lib/models/hymns.client'
 import Pagination from './pagination'
 
+const withTimestamps = false
+
 export default function HymnsGallery() {
-  const [baseHymns, setBaseHymns] = useState<BaseHymn[]>([])
-  const [filteredHymns, setFilteredHymns] = useState<Hymn[]>([])
+  const [filteredHymns, setFilteredHymns] = useState<BaseHymn[]>([])
   const [search, setSearch] = useState('')
   const [isLoading, setIsLoading] = useState(false)
   const debounceTimer = useRef<number | null>(null)
@@ -18,7 +19,7 @@ export default function HymnsGallery() {
   const [totalPages, setTotalPages] = useState(1)
 
   useEffect(() => {
-    HymnClientModel.getBaseHymns().then(setBaseHymns)
+    HymnClientModel.getBaseHymns().then(setFilteredHymns)
   }, [])
 
   useEffect(() => {
@@ -26,18 +27,16 @@ export default function HymnsGallery() {
       window.clearTimeout(debounceTimer.current)
     }
 
+    setIsLoading(true)
+
     debounceTimer.current = window.setTimeout(() => {
-      setIsLoading(true)
-
-      const result = baseHymns.filter(
-        (hymn) =>
-          hymn.name.includes(search) || hymn.number.toString().includes(search)
-      )
-
-      HymnClientModel.searchHymns(search, { offset: (currentPage - 1) * 50 })
-        .then((hymns) => {
+      HymnClientModel.searchHymns(search, {
+        offset: (currentPage - 1) * 50,
+        withTimestamps,
+      })
+        .then(({ data: hymns, count }) => {
           setFilteredHymns(hymns)
-          const totalPages = Math.ceil((result.length || 613) / 50)
+          const totalPages = Math.ceil((count || 0) / 50)
           setTotalPages(totalPages)
           setCurrentPage((c) => (c > totalPages ? totalPages : c))
         })

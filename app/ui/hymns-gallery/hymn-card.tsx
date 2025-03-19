@@ -1,11 +1,10 @@
 import { isHymnReady } from '@/app/lib/hymns'
-import { HymnClientModel } from '@/app/lib/models/hymns.client'
 import { getThumbnail } from '@/app/lib/thumbnails'
-import type { Hymn } from '@/app/types'
+import type { BaseHymn } from '@/app/types'
 import Link from 'next/link'
 
 interface HymnCardProps {
-  hymn: Hymn
+  hymn: BaseHymn
 }
 
 export default function HymnCard({ hymn }: HymnCardProps) {
@@ -13,9 +12,6 @@ export default function HymnCard({ hymn }: HymnCardProps) {
     <Link
       href={`/hymn/${hymn.number}`}
       className='relative flex flex-col items-center justify-center gap-2 p-4 bg-white border border-gray-200 rounded-md hover:bg-amber-50 hover:border-amber-200 transition w-48 h-64'>
-      {!isHymnReady(hymn) && (
-        <div className='absolute -top-1 -right-1 w-4 h-4 bg-red-400 rounded-full' />
-      )}
       <img
         src={getThumbnail(hymn.number)}
         alt={`Thumbnail de Himno ${hymn.number}`}
