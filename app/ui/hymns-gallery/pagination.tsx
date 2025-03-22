@@ -10,7 +10,7 @@ export default function Pagination({
   totalPages: number
 }) {
   return (
-    <nav className='fixed bottom-4 left-1/2 -translate-1/2 flex items-center justify-center gap-4 p-4 bg-blue-100 border border-blue-200 rounded-xl'>
+    <nav className='fixed z-20 bottom-4 left-1/2 -translate-1/2 flex items-center justify-center gap-4 p-4 bg-blue-100 border border-blue-200 rounded-xl'>
       <button
         className='bg-blue-200 hover:bg-blue-300 rounded-xl p-2 text-center'
         onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}>

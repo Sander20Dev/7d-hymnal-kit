@@ -8,6 +8,8 @@ import clsx from 'clsx'
 import { PrimaryButton } from './buttons'
 import Link from 'next/link'
 import { clientDB } from '@/app/lib/db/db.client'
+import { HymnClientModel } from '@/app/lib/models/hymns.client'
+import { useRouter } from 'next/navigation'
 
 interface TimeMarkerProps {
   number: number
@@ -22,6 +24,8 @@ export default function TimeMarker({
 }: TimeMarkerProps) {
   const [timestamps, setTimestamps] = useState<number[]>(defaultTimestamps)
   const [audio, setAudio] = useState<HTMLAudioElement | null>(null)
+
+  const router = useRouter()
 
   const length = formattedLyrics.reduce((acc, v) => acc + v.lines.length, 1)
 
@@ -45,9 +49,10 @@ export default function TimeMarker({
             {lines.map((l, j) => {
               const currentTimeIndex =
                 arr.slice(0, i).reduce((acc, v) => acc + v.lines.length, 1) + j
+
               return (
                 <p
-                  key={'line-' + i + '-' + l}
+                  key={'line-' + i + '-' + j + ':' + l}
                   className={clsx(
                     timestamps.length === currentTimeIndex
                       ? 'text-blue-950 font-bold'
@@ -120,18 +125,18 @@ export default function TimeMarker({
                   args: [timestampsString, number],
                 })
 
-                window.location.reload()
+                const {
+                  data: [first],
+                } = await HymnClientModel.searchHymns('', {
+                  limit: 1,
+                  withTimestamps: false,
+                })
 
-                // ;(
-                //   document.getElementById('clipboard') as HTMLInputElement
-                // )?.select()
-                // if (window.navigator.clipboard == null) {
-                //   document.execCommand('copy')
-                // } else {
-                //   window.navigator.clipboard.writeText(
-                //     `[${timestamps.join(', ')}]`
-                //   )
-                // }
+                if (first == null) {
+                  router.push('/')
+                }
+
+                router.push(`/hymn/${first.number}/time-marker`)
               }}
               disabled={timestamps.length !== length}
               title='Guarda el tiempo marcado'>

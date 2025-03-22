@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import TimeMarker from './ui/time-marker'
 import { HymnVerse, PageProps } from '@/app/types'
+import { getFormattedLyrics } from '@/app/lib/lyrics'
 
 export default async function TimeMarkerPage({
   params,
@@ -51,37 +52,4 @@ export default async function TimeMarkerPage({
       />
     </main>
   )
-}
-
-function getFormattedLyrics(lyrics: HymnVerse[], doubleChorus: boolean) {
-  const chorusPosition = lyrics.findIndex(({ kind }) => kind === 'chorus') as
-    | 0
-    | 1
-    | -1
-
-  if (chorusPosition === -1) return lyrics
-
-  const newLength = (lyrics.length - 1) * 2
-  const lyricsWithoutChorus = lyrics.filter(({ kind }) => kind !== 'chorus')
-
-  const formattedLyrics = Array.from({ length: newLength }, (_, i) => {
-    const isChorusIndex = i % 2 === chorusPosition
-
-    if (isChorusIndex) {
-      return lyrics[chorusPosition]
-    } else {
-      const a = chorusPosition === 0 ? 1 : 0
-      return lyricsWithoutChorus[(i + a) / 2]
-    }
-  })
-
-  if (doubleChorus) {
-    if (chorusPosition === 0) {
-      formattedLyrics.unshift(formattedLyrics[0])
-    } else {
-      formattedLyrics.push(formattedLyrics[1])
-    }
-  }
-
-  return formattedLyrics
 }

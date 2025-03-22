@@ -5,16 +5,14 @@ export default class HymnModel {
   constructor(public clientDB: Client) {}
 
   async getBaseHymns(): Promise<BaseHymn[]> {
-    const result = await this.clientDB.execute(
-      'SELECT * FROM hymn_info ORDER BY number ASC'
-    )
+    const result = await this.clientDB.execute('SELECT * FROM hymn_info')
 
     return parseBaseHymn(result)
   }
 
   async getHymns({ offset = 0, limit = 50 } = {}): Promise<Hymn[]> {
     const result = await this.clientDB.execute({
-      sql: 'SELECT * FROM hymn_info ORDER BY number ASC LIMIT ? OFFSET ?',
+      sql: 'SELECT * FROM hymn_info LIMIT ? OFFSET ?',
       args: [limit, offset],
     })
 
@@ -83,7 +81,7 @@ export default class HymnModel {
     const sql = (data: string) =>
       `SELECT ${data} FROM hymn_info WHERE ${
         filters && filters + ' AND '
-      }(name LIKE ? OR number LIKE ?) ORDER BY number ASC LIMIT ? OFFSET ?`
+      }(name LIKE ? OR number LIKE ?) LIMIT ? OFFSET ?`
 
     const result = await this.clientDB.execute({
       sql: sql('name, number'),

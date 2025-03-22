@@ -26,7 +26,7 @@ export default function VerseAssociated({
       />
       <button
         disabled={verse === verseAssociated}
-        className='bg-blue-200 hover:bg-blue-300 rounded-md rounded-l-none p-2 text-center disabled:grayscale-25 disabled:hover:bg-blue-200'
+        className='bg-blue-200 hover:bg-blue-300 rounded-md rounded-l-none p-2 text-center disabled:grayscale-25 disabled:hover:bg-blue-200 disabled:cursor-not-allowed'
         onClick={async () => {
           if (confirm('¿Está seguro de que desea guardar?')) {
             alert('Guardado')

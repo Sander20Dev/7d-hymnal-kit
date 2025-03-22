@@ -51,8 +51,8 @@ export default async function HymnPage({
                       : i + 1) +
                     ':'}
               </p>
-              {lines.map((l) => (
-                <p key={'line-' + i + '-' + l}>{l}</p>
+              {lines.map((l, j) => (
+                <p key={'line-' + i + '-' + j + ':' + l}>{l}</p>
               ))}
             </section>
           ))
