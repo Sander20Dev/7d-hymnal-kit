@@ -120,34 +120,37 @@ export default function TimeMarker({
 
                 const timestampsString = JSON.stringify(timestamps)
 
+                // get the next hymn
+                const {
+                  rows: [next],
+                } = await clientDB.execute({
+                  sql: 'SELECT number FROM hymn_info WHERE number > ? AND timestamps = "[]" LIMIT 1',
+                  args: [number],
+                })
+
                 await clientDB.execute({
                   sql: 'UPDATE hymn_info SET timestamps = ? WHERE number = ?',
                   args: [timestampsString, number],
                 })
 
-                const {
-                  data: [first],
-                } = await HymnClientModel.searchHymns('', {
-                  limit: 1,
-                  withTimestamps: false,
-                })
-
-                if (first == null) {
+                if (next == null) {
                   router.push('/')
+                  return
                 }
 
-                router.push(`/hymn/${first.number}/time-marker`)
+                const nextNumber = next[0]
+
+                if (typeof nextNumber !== 'number') {
+                  router.push('/')
+                  return
+                }
+
+                router.push(`/hymn/${nextNumber}/time-marker`)
               }}
               disabled={timestamps.length !== length}
               title='Guarda el tiempo marcado'>
               Guardar
             </PrimaryButton>
-            {/* <Link
-              className='bg-amber-300 hover:bg-amber-400 px-2 py-1'
-              href='https://docs.google.com/spreadsheets/d/13Se-F9Bpi-QkfsQw4l2p5Q_PaiZW9mGPjdjoRVDguMQ/edit?usp=sharing'
-              target='_blank'>
-              Ir al registro
-            </Link> */}
           </section>
         )}
       </section>

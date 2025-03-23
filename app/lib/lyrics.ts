@@ -17,8 +17,9 @@ export function getFormattedLyrics(lyrics: HymnVerse[], doubleChorus: boolean) {
     if (isChorusIndex) {
       return lyrics[chorusPosition]
     } else {
-      const a = chorusPosition === 0 ? 1 : 0
-      return lyricsWithoutChorus[(i + a) / 2]
+      const index = Math.floor(i / 2)
+
+      return lyricsWithoutChorus[index]
     }
   })
 
@@ -29,6 +30,8 @@ export function getFormattedLyrics(lyrics: HymnVerse[], doubleChorus: boolean) {
       formattedLyrics.push(formattedLyrics[1])
     }
   }
+
+  console.log({ formattedLyrics, lyrics })
 
   // Filter chorus lines '[i]: line'
   const fixedLyrics = formattedLyrics.map((verse, i) => {
