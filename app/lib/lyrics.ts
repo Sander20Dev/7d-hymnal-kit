@@ -24,10 +24,10 @@ export function getFormattedLyrics(lyrics: HymnVerse[], doubleChorus: boolean) {
   })
 
   if (doubleChorus) {
-    if (chorusPosition === 0) {
+    if (chorusPosition === 1) {
       formattedLyrics.unshift(formattedLyrics[0])
     } else {
-      formattedLyrics.push(formattedLyrics[1])
+      formattedLyrics.push(formattedLyrics[0])
     }
   }
 
