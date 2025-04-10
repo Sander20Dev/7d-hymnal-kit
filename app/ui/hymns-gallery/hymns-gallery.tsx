@@ -19,10 +19,6 @@ export default function HymnsGallery() {
   const [totalPages, setTotalPages] = useState(1)
 
   useEffect(() => {
-    HymnClientModel.getBaseHymns().then(setFilteredHymns)
-  }, [])
-
-  useEffect(() => {
     if (debounceTimer.current != null) {
       window.clearTimeout(debounceTimer.current)
     }
